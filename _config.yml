@@ -16,7 +16,7 @@ disqus_shortname: 'your-disqus-shortname'
 # Details for the RSS feed generator
 url:            'http://help.micro.blog'
 author:         'Manton Reece'
-authorTwitter:  'riverfold'
+authorTwitter:  'microdotblog'
 
 permalink:       /:year/:title/
 
