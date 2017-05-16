@@ -17,7 +17,7 @@ So you've created an account on Micro.blog. Thanks! We're glad to have you. Here
 
 **Next**, follow some other Micro.blog users:
 
-* You can find users in the [Discover](https://micro.blog/discover) of Micro.blog. It's a random selection of featured users, so reload the page for more suggestions. There's also a search box if you know the name of a user you want to follow.
+* You can find users in the [Discover section](https://micro.blog/discover) of Micro.blog. It's a random selection of featured users, so reload the page for more suggestions. There's also a search box if you know the name of a user you want to follow.
 * In the [Indie Microblogging Slack](https://microblogging.slack.com/), check out the #followme channel. If you're not on Slack yet, you can [sign up here](https://micro.blog/slack).
 
 **Finally**, get the iPhone app:
