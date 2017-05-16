@@ -1,0 +1,23 @@
+---
+layout: null
+---
+{
+	"title": {{ site.name | jsonify }},
+	"home_page_url": "{{ site.url }}/",
+	"feed_url": "{{ site.url }}/feed.json",
+	"author": {
+		"name": "Manton Reece",
+		"url": "http://www.manton.org/"
+	},
+	"items": [
+		{% for post in site.posts limit:10 %}
+		{
+			"id": "{{ post.url }}",
+			"title": {{ post.title | jsonify }},
+			"content_html": {{ post.content | jsonify }},
+			"date_published": "{{ post.date | date_to_xmlschema }}",
+			"url": "{{ site.url }}{{ post.url }}"
+		}{% if forloop.last == false %},{% endif %}
+		{% endfor %}
+	]
+}

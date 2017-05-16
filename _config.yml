@@ -1,0 +1,41 @@
+name: Micro.blog Help
+description: Documentation for Micro.blog.
+meta_description: "Documentation for Micro.blog."
+
+aboutPage: true
+
+highlighter: rouge
+
+paginate: 20
+baseurl: /
+domain_name: 'http://help.micro.blog'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://help.micro.blog'
+author:         'Manton Reece'
+authorTwitter:  'riverfold'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
