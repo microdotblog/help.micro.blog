@@ -34,7 +34,7 @@ The media endpoint accepts a `multipart/form-data` upload with a `file` part con
 
 ```
 HTTP/1.1 202 Accepted
-Location: https://username.micro.blog/uploads/2017/f7443b5425.jpg
+Location: https://username.micro.blog/uploads/123.jpg
 ```
 
 Micro.blog supports Micropub on both the server and from the Micro.blog iOS app:
