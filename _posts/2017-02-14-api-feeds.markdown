@@ -11,7 +11,7 @@ RSS and JSON feeds are available for hosted blogs and to retrieve the timeline f
 * `https://micro.blog/feeds/username.xml` — Friends' posts for what the specified user sees in their timeline.
 * `https://username.micro.blog/feed.xml` — Posts for the published microblog.
 
-**JSON versions** are available at these URLs:
+**JSON versions** in [JSON Feed](https://jsonfeed.org/) format are available at these URLs:
 
 * `https://micro.blog/feeds/username.json` — Friends' posts for what the specified user sees in their timeline.
 * `https://username.micro.blog/feed.json` — Posts for the published microblog.

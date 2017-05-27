@@ -15,6 +15,28 @@ Authorization: Bearer 123456789
 h=entry&content=Hello%20world.
 ```
 
+To upload a photo to a Micro.blog-hosted blog, first query Micropub to get the media endpoint:
+
+```
+GET /micropub?q=config
+Authorization: Bearer 123456789
+```
+
+This will return a response like:
+
+```
+{
+	"media-endpoint": "https://micro.blog/micropub/media"
+}
+```
+
+The media endpoint accepts a `multipart/form-data` upload with a `file` part containing the JPEG image data. Micro.blog will send back an HTTP 202 response while the image is being copied to the published site. It may take a few seconds for it to be available at the URL in the response:
+
+```
+HTTP/1.1 202 Accepted
+Location: https://username.micro.blog/uploads/2017/f7443b5425.jpg
+```
+
 Micro.blog supports Micropub on both the server and from the Micro.blog iOS app:
 
 * For posting from a third-party client to a Micro.blog-hosted microblogs, you can use IndieAuth or generate an app token under Account → "App tokens". If you use a token, set it the `Authorization: Bearer` header.

@@ -4,7 +4,7 @@ date:   2017-02-14 15:00:00
 description: Custom JSON API.
 ---
 
-The JSON API uses the same style as the JSON versions of the [hosted site feeds](/2017/api-feeds/). A response with posts looks like this:
+The JSON API is based on [JSON Feed](https://jsonfeed.org/), the same format as the JSON versions of the [hosted site feeds](/2017/api-feeds/). Micro.blog adds a few useful fields under an extension named `_microblog`. A response with posts looks like this:
 
 ```
 {
@@ -41,19 +41,20 @@ The JSON API uses the same style as the JSON versions of the [hosted site feeds]
 
 The following endpoints are supported:
 
-* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. The user can also generate app tokens under Account → Edit Apps.
+* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. The redirect URL will have a new authorization token appended to it, which you should store and use on subsequent requests. The user can also generate app tokens under Account → Edit Apps.
 * `GET /posts/all` — JSON timeline for the signed-in user.
 * `GET /posts/mentions` — JSON mentions for the signed-in user.
 * `GET /posts/favorites` — JSON favorites for the signed-in user.
 * `GET /posts/[username]` — JSON posts written by the given user.
 * `GET /posts/conversation?id=[id]` — JSON thread for a reply.
-* `GET /posts/check?since_id=[id]` — Check whether there are new posts in the timeline.
+* `GET /posts/check?since_id=[id]` — Check whether there are new posts in the timeline. The response also includes a suggestion for the number of seconds to wait before polling again.
 * `POST /posts/favorites` — Favorite a post. Pass an `id`.
 * `DELETE /posts/favorites/[id]` — Unfavorite a post. Pass an `id`.
 * `POST /posts/reply` — Post a reply to an `id` with `text` param.
 * `DELETE /posts/[id]` — Delete one of your posts, replies, or favorites for the given `id`.
 * `POST /users/follow` — Follow user with `username` param.
 * `POST /users/unfollow` — Unfollow `username`.
+* `POST /micropub` — Posting for a hosted microblog uses the Micropub API. [See the documentation](http://help.micro.blog/2017/api-posting/) for more information about posting.
 
 You should pass an authorization token as an HTTP header. This token can be retrieved via `/account/signin` or by the user under Account → Edit Apps. This is what sending the HTTP token looks like:
 
@@ -61,7 +62,5 @@ You should pass an authorization token as an HTTP header. This token can be retr
 GET /posts/all
 Authorization: Token 123456789
 ```
-
-_This API is still under development and may change before the public launch of Micro.blog._
 
 Note: IDs are 64-bit and unique across all post types. Pass `count`, `since_id`, and `before_id` params for paging.
