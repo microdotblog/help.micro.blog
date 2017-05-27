@@ -26,7 +26,7 @@ This will return a response like:
 
 ```
 {
-	"media-endpoint": "https://micro.blog/micropub/media"
+  "media-endpoint": "https://micro.blog/micropub/media"
 }
 ```
 
