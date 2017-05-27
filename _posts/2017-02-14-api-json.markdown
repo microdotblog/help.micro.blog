@@ -41,7 +41,7 @@ The JSON API is based on [JSON Feed](https://jsonfeed.org/), the same format as 
 
 The following endpoints are supported:
 
-* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. The redirect URL will have a new authorization token appended to it, which you should store and use on subsequent requests. The user can also generate app tokens under Account → Edit Apps.
+* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. After the user signs in, the redirect URL back to your app will have a new authorization token appended to it, which you should store and use on subsequent requests. The user can also generate app tokens under Account → Edit Apps.
 * `GET /posts/all` — JSON timeline for the signed-in user.
 * `GET /posts/mentions` — JSON mentions for the signed-in user.
 * `GET /posts/favorites` — JSON favorites for the signed-in user.
