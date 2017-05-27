@@ -8,7 +8,7 @@ profile: true
 
 **What are the paid plans on Micro.blog for?** — Micro.blog is free for basic accounts and paid for extra features. Micro.blog can host your microblog for $5/month, including cross-posting to other social media platforms. If you host your own microblog, you can get the cross-posting feature for $2/month.
 
-**Why haven't I received my invite yet?** — We are rolling out early access to Micro.blog the week of April 24th, in the order you backed the project. It will take several days to get invites to everyone. Emails will come from the address `help@micro.blog` with the subject "Micro.blog invite".
+**Why haven't I received my invite yet?** — Invites to Kickstarter backers have all been sent out. Please check your spam folder, if you are a Kickstarter backer and have not received your invite. Emails will come from the address `help@micro.blog` with the subject "Micro.blog invite". If you cannot find your invite, please email [help@micro.blog](mailto:help@micro.blog).
 
 **When I registered my username, my Kickstarter reward did not appear. Do I have to enter a credit card to get my reward?** — For some Kickstarter backers, the reward was not applied. We apologize for the issue, and we've updated all the accounts to fix it. If you've already created a trial microblog, we've credited your account for the extra months. If you've paid for a microblog without seeing the Kickstarter reward, email [help@micro.blog](mailto:help@micro.blog) and we can apply an additional credit to your subscription.
 
