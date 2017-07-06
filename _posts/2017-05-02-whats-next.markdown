@@ -12,6 +12,8 @@ Now that Micro.blog is available to Kickstarter backers, we're working on many i
 
 We've recently finished these changes:
 
+* Improved Micropub API with support for [OwnYourGram](http://help.micro.blog/2017/instagram/).
+* Improved published blog filenames and removed unnecessarily titles in Hyde theme.
 * Added iPad support to the iOS app and made it available [in the App Store](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8).
 * Added user search from the iOS app.
 * Improved @-mentions from regular, non-reply microblog posts to auto-link usernames. If the post starts with an @-mention, it will be stored separately and not cross-posted to Twitter.
