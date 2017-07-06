@@ -9,13 +9,14 @@ Now that Micro.blog is available to Kickstarter backers, we're working on many i
 * Connectivity problems (blank screens) on some cellular networks.
 * Some pins are not automatically unlocked.
 * Theme improvements including a link from `your-username.micro.blog` to your profile page.
-* User search should be available from the iPhone app.
-* @-mentions from regular, non-reply microblog posts should auto-link usernames. If they start with a username, they shouldn't be cross-posted to Twitter.
-* Links and Twitter cross-posts should use custom domain.
 
 We've recently finished these changes:
 
+* Added iPad support to the iOS app and made it available [in the App Store](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8).
+* Added user search from the iOS app.
+* Improved @-mentions from regular, non-reply microblog posts to auto-link usernames. If the post starts with an @-mention, it will be stored separately and not cross-posted to Twitter.
 * Improved cross-posting to extract inline links and append them at the end of the tweet.
+* Updated links and Twitter cross-posts to use custom domain names.
 * Added Markdown and auto-linking URLs in mentions.
 * Added showing conversation view in iPhone from push notifications.
 * Added a Discover page on the web and in the iPhone app to find users.
