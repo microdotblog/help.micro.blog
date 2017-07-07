@@ -22,5 +22,5 @@ So you've created an account on Micro.blog. Thanks! We're glad to have you. Here
 
 **Finally**, get the iPhone app:
 
-* Micro.blog includes an iPhone app to make posting on-the-go easier. The app is in beta. Request access to the app by [adding your name to the beta list](https://micro.blog/beta). If you haven't received a TestFlight invite yet, please email [help@micro.blog](mailto:help@micro.blog) to let us know.
+* Micro.blog includes an iOS app to make posting on-the-go easier. The app is a universal app for iPhone and iPad. You can [download it on the App Store](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8).
 * The iPhone app can post to Micro.blog-hosted blogs, WordPress blogs, and microblogs that support the Micropub API. To post to an external blog, tap Settings and select "WordPress or compatible weblog".
