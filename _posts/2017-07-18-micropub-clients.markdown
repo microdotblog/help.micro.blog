@@ -1,7 +1,7 @@
 ---
-title:  "Micropub clients"
+title:  "Third-party apps"
 date:   2017-07-18 08:00:00
-description: Third-party clients for posting.
+description: Posting with Micropub API clients.
 ---
 
 Because [Micro.blog supports the Micropub API](http://help.micro.blog/2017/api-posting/) for hosted blogs, many existing Micropub clients can be used to post to Micro.blog. Here are a few that we've tested with:
