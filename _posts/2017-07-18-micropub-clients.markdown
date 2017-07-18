@@ -4,9 +4,8 @@ date:   2017-07-18 08:00:00
 description: Posting with Micropub API clients.
 ---
 
-Because [Micro.blog supports the Micropub API](http://help.micro.blog/2017/api-posting/) for hosted blogs, many existing Micropub clients can be used to post to Micro.blog. Here are a few that we've tested with:
+In addition to [the official iOS app](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8), there is a growing list of third-party apps that work with Micro.blog. Because [Micro.blog supports the Micropub API](http://help.micro.blog/2017/api-posting/) for hosted blogs, many existing Micropub clients can be used to post to Micro.blog. Here are a few that we've tested with:
 
-* [Micro.blog for iOS](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8) — The official Micro.blog app.
 * [Quill](https://quill.p3k.io/) — Web browser client that can post to Micro.blog and upload photos.
 * [OwnYourGram](http://ownyourgram.com/) — Automatically posts your Instagram photos to your microblog.
 * [Omnibear](https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn) — Chrome extension for simple posting.
