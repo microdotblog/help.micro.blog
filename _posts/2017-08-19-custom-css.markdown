@@ -10,7 +10,8 @@ To edit your site's CSS, go to Account → "Edit Domains & Design" → Edit (nex
 
 It's even possible to replace some text using CSS. For example, in the Primrose theme the copyright footer can be overridden with CSS like this:
 
-```.footer {
+```
+.footer {
 	padding-top: 10px;
 }
 
@@ -20,6 +21,7 @@ It's even possible to replace some text using CSS. For example, in the Primrose 
 
 .copyright {
 	display: none;
-}```
+}
+```
 
 If you have any questions about themes or CSS, you can also check in the #design channel in the [Indie Microblogging Slack](https://microblogging.slack.com/).
