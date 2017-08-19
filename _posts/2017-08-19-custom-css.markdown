@@ -12,7 +12,7 @@ If you wanted to customize all the photos on your microblog to include a border,
 
 ```
 img {
-	border: 1px solid gray;
+  border: 1px solid gray;
 }
 ```
 
@@ -20,15 +20,15 @@ It's even possible to replace some text using CSS. For example, in the Primrose 
 
 ```
 .footer {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 .footer:after {
-	content: "Creative Commons License"
+  content: "Creative Commons License"
 }
 
 .copyright {
-	display: none;
+  display: none;
 }
 ```
 
