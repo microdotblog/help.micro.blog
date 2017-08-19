@@ -12,6 +12,9 @@ Now that Micro.blog is available to Kickstarter backers, we're working on many i
 
 We've recently finished these changes:
 
+* Added SSL for custom domains. Email [help@micro.blog](mailto:help@micro.blog) and we'll enable it for you.
+* Added Markdown highlighting for web replies.
+* Added repost support from Micropub clients such as Micropublish.
 * Improved Micropub API with support for [OwnYourGram](http://help.micro.blog/2017/instagram/).
 * Improved published blog filenames and removed unnecessarily titles in Hyde theme.
 * Added iPad support to the iOS app and made it available [in the App Store](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8).
