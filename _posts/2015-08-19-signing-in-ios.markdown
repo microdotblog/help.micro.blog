@@ -1,7 +1,7 @@
 ---
 title:  "Signing in with the iOS app"
 date:   2015-08-19 10:30:00
-description: Getting started with Snippets for iOS.
+description: Getting started with Micro.blog for iOS.
 ---
 
 Micro.blog doesn't have passwords. The easiest way to sign in with the iOS app is to enter your email address when you first launch the app. Micro.blog will send you an email with a link to tap to be signed in.
