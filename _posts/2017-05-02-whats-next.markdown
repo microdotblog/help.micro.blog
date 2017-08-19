@@ -14,6 +14,7 @@ We've recently finished these changes:
 
 * Added SSL for custom domains. Email [help@micro.blog](mailto:help@micro.blog) and we'll enable it for you.
 * Added Markdown highlighting for web replies.
+* Added Facebook cross-posting.
 * Added repost support from Micropub clients such as Micropublish.
 * Improved Micropub API with support for [OwnYourGram](http://help.micro.blog/2017/instagram/).
 * Improved published blog filenames and removed unnecessarily titles in Hyde theme.
