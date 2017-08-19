@@ -16,7 +16,7 @@ profile: true
 
 **Why are the dates and times on my posts off by a few hours?** — Micro.blog tries to determine your current timezone, but it doesn't work in all cases. We will be fixing this soon and adding an option to choose a timezone.
 
-**How do I get the Micro.blog iPhone app?** — The app is currently in beta. [Sign up here](https://micro.blog/beta) and we will invite you to the next version via Apple's TestFlight.
+**How do I get the Micro.blog iOS app?** — The app is now available for [download on the App Store](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8). If you had previously downloaded the beta app via TestFlight, please delete that older version from your phone so that it doesn't accidentally open when signing in.
 
 **How do I follow other Micro.blog users?** — You can search on the Discover tab on the Micro.blog web site and in the iPhone app. You can also check the #followme channel on the Microblogging Slack.
 
