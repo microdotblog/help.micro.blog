@@ -14,16 +14,24 @@ Here is some _italic_ text.
 
 For stronger emphasis, surround the text with two asterisks. This will produce bold text:
 
-	Here is some **bold** text.
+{% highlight markdown %}
+Here is some **bold** text.
+{% endhighlight %}
 
 **Links:** You can link to another URL by using the following syntax, with the title of the link first, followed by the URL:
 
-	Go check out [this web site](http://micro.blog/).
+{% highlight markdown %}
+Go check out [this web site](http://micro.blog/).
+{% endhighlight %}
 
 **Blockquote:** To quote from another blog post, include a paragraph (separated by blank lines) that starts with the &gt; character:
 
-	> This is a quote from someone else.
+{% highlight markdown %}
+> This is a quote from someone else.
+{% endhighlight %}
 
 **Headers:** While headers shouldn't be used in short microblog posts, they can be useful for longer posts and custom pages. Start a new line with one or more "#" characters to turn the line into a header:
 
-	## Section 2
+{% highlight markdown %}
+## Section 2
+{% endhighlight %}
