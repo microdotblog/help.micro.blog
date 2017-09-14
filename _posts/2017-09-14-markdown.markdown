@@ -1,0 +1,37 @@
+---
+title:  "Markdown reference"
+date:   2017-08-19 09:30:00
+description: Styling your posts with Markdown.
+---
+
+Micro.blog-hosted blogs and replies support [Markdown](https://daringfireball.net/projects/markdown/) for formatting your posts. While most of Markdown's syntax is allowed, you should limit markup to simple formatting and links so that it reads well in microblog posts. Micro.blog's timeline will additionally strip out some HTML tags from blog posts.
+
+**Emphasis:** To emphasize some words or phrases, surround the text with single underscores. This will produce italic text when shown on your microblog and in the timeline:
+
+```
+	Here is some _italic_ text.
+```
+
+For stronger emphasis, surround the text with two asterisks. This will produce bold text:
+
+```
+	Here is some **bold** text.
+```
+
+**Links:** You can link to another URL by using the following syntax, with the title of the link first, followed by the URL:
+
+```
+	Go check out [this web site](http://micro.blog/).
+```
+
+**Blockquote:** To quote from another blog post, include a paragraph (separated by blank lines) that starts with the &gt; character:
+
+```
+	> This is a quote from someone else.
+```
+
+**Headers:** While headers shouldn't be used in short microblog posts, they can be useful for longer posts and custom pages. Start a new line with one or more "#" characters to turn the line into a header:
+
+```
+	## Section 2
+```
