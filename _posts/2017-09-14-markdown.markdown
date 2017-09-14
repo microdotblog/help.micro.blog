@@ -8,7 +8,9 @@ Micro.blog-hosted blogs and replies support [Markdown](https://daringfireball.ne
 
 **Emphasis:** To emphasize some words or phrases, surround the text with single underscores. This will produce italic text when shown on your microblog and in the timeline:
 
+```markdown
 	Here is some _italic_ text.
+```
 
 For stronger emphasis, surround the text with two asterisks. This will produce bold text:
 

@@ -5,6 +5,10 @@ meta_description: "Documentation for Micro.blog."
 aboutPage: true
 
 highlighter: rouge
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 paginate: 20
 baseurl: /
