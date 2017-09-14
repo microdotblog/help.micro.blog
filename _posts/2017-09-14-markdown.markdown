@@ -1,6 +1,6 @@
 ---
 title:  "Markdown reference"
-date:   2017-08-19 09:30:00
+date:   2017-09-14 10:00:00
 description: Styling your posts with Markdown.
 ---
 
