@@ -6,7 +6,7 @@ description: The official macOS version of Micro.blog
 
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
 
-[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.0b11.zip). It requires macOS 10.12 Sierra.
+[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.0b12.zip). It requires macOS 10.12 Sierra.
 
 When you first launch the app, it will prompt to sign in via your web browser. If you're already signed in on the web, it will prompt to redirect back to the Mac version.
 
