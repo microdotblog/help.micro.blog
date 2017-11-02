@@ -16,4 +16,4 @@ Instead of yet another social network, Micro.blog is a thin layer on top of the 
 
 Micro.blog encourages publishing on your own site, where you can control your own content, but it still seamlessly integrates posts into a familiar timeline user interface, with centralized replies, favorites, and a truly open API.
 
-You can register for free, bring your own weblog, or let Micro.blog host a microblog for you with a simple paid subscription. Map a custom domain to your site and get your content out whenever you want. I hope you like it.
+[You can register for free](https://micro.blog/register), bring your own weblog, or let Micro.blog host a microblog for you with a simple paid subscription. Map a custom domain to your site and get your content out whenever you want. I hope you like it.
