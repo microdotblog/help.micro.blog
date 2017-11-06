@@ -1,7 +1,7 @@
 ---
 title:  "Micro.blog for Mac"
 date:   2017-10-15 10:00:00
-description: The official macOS version of Micro.blog
+description: The official macOS version of Micro.blog.
 ---
 
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
