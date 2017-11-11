@@ -24,7 +24,7 @@ It's even possible to replace some text using CSS. For example, in the Primrose 
 }
 
 .footer:after {
-  content: "Creative Commons License"
+  content: "Creative Commons License";
 }
 
 .copyright {
