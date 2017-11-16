@@ -20,7 +20,7 @@ For example:
 Or like this somewhere on your home page:
 
 ```
-<a href="https://micro.blog/your-username" rel="me" />Micro.blog</a>
+<a href="https://micro.blog/your-username" rel="me">Micro.blog</a>
 ```
 
 Once you've added one of these to your web site, reload [the Micro.blog account screen](https://micro.blog/account). Micro.blog will check your web site and then mark your username as verified.
