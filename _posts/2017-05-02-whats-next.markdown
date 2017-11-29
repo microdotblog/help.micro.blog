@@ -4,14 +4,22 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-Now that Micro.blog is available to Kickstarter backers, we're working on many improvements leading up to the public launch. Here are some of the features and bugs we're working on:
+Now that Micro.blog is available to Kickstarter backers and more users, we're working on many improvements leading up to the public launch. Here are some of the features and bugs we're working on:
 
 * Connectivity problems (blank screens) on some cellular networks.
-* Some pins are not automatically unlocked.
-* Theme improvements including a link from `your-username.micro.blog` to your profile page.
+* Support for scrolling back further in the timeline.
+* More hosted microblog themes.
+* Prompting to automatically renew Facebook authentication, which expires after 60 days.
+* Improvements to @-mention support to be more consistent across blogs.
 
 We've recently finished these changes:
 
+* Added an official Mac app, plus updates to the iOS version for the iPhone X.
+* Fixed some pins not getting automatically unlocked.
+* Improved Discover screens to show a timeline of a selection of posts from the community.
+* Added export in WordPress's WXR file format.
+* Added a link from `your-username.micro.blog` to your profile page.
+* Added better post browsing, editing, and deleting under Account → Posts.
 * Added SSL for custom domains. Email [help@micro.blog](mailto:help@micro.blog) and we'll enable it for you.
 * Added Markdown highlighting for web replies.
 * Added Facebook cross-posting.
