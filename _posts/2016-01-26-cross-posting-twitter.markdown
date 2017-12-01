@@ -12,8 +12,8 @@ Next to the RSS feed you would like to automatically cross-post, just click the 
 
 Once enabled, any new posts (after you enable cross-posting) will be sent to Twitter, with these rules:
 
-* Short posts without a title, and less than 140 characters, will be sent to Twitter unmodified.
-* Longer posts without a title, but longer than 140 characters, will be truncated with a link back to your microblog.
+* Short posts without a title, and less than 280 characters, will be sent to Twitter unmodified.
+* Longer posts without a title, but longer than 280 characters, will be truncated with a link back to your microblog.
 * Posts with a title, regardless of length, will be sent to Twitter using the title and a link back to your microblog to read the full post.
 * The first photo embedded in a post is automatically downloaded and attached to your tweet. Photos should be larger than 200x200, to avoid accidentally cross-posting small buttons and tracking images that some blog systems include.
 
