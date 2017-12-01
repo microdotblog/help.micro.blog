@@ -20,4 +20,6 @@ profile: true
 
 **What is the difference between `username.micro.blog` and `micro.blog/username`? Shouldn't these point to the same thing?** — URLs with `username.micro.blog` are independent sites, hosted by Micro.blog. They could just as easily be `mydomain.com`. The `micro.blog/username` page has all your posts — possibly from multiple feeds — as well as the Follow button.
 
+**When I try to post to my new microblog from iOS or the Mac, why does it prompt for an external site?** — If you created your hosted microblog after signing in to the native apps, you may need to sign out and then back in from the apps for your new site to be recognized. We're fixing this for the next version.
+
 {% include footer.html %}
