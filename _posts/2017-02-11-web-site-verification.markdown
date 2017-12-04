@@ -17,7 +17,9 @@ For example:
 </head>
 ```
 
-Or like this somewhere on your home page:
+Using WordPress? You can use the plugin [Insert Headers and Footers](https://wordpress.org/plugins/insert-headers-and-footers/) to add the `<link>` tag to your header. Click on WP Admin → Plugins → Add New, and search for "Insert Headers and Footers" by WPBeginner.
+
+Another great option is to link to your Micro.blog profile somewhere on your web site, such as in a sidebar or menu. This makes it easier for people to follow you on Micro.blog.
 
 ```
 <a href="https://micro.blog/your-username" rel="me">Micro.blog</a>
