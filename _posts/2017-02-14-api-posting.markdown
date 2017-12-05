@@ -50,23 +50,27 @@ On the server, Micro.blog support requires a few things to be configured for Ind
 * Set your web site under Account to `your-username.micro.blog`. Make sure it is verified.
 * Link to `your-username.micro.blog` on your Twitter or GitHub profiles.
 
-**The XML-RPC support** (known as the Blogger API or MetaWeblog API) allows you to post to a Micro.blog-hosted microblog and from the iOS app to WordPress, MovableType, and other compatible blogging platforms:
+For users who have multiple microblogs configured, `/micropub?q=config` will return of the list of sites. You can post to a specific microblog by passing an `mp-destination` parameter of the URL (`uid` from the configured list).
+
+**The XML-RPC support** (MetaWeblog API) allows you to post to a Micro.blog-hosted microblog and from the iOS app to WordPress, MovableType, and other compatible blogging platforms:
 
 * For posting from a third-party client like MarsEdit on your Mac to Micro.blog-hosted microblogs, generate an app token under Account → "App tokens". When prompted for a username in your third-party client, enter your Micro.blog username and the app token for the password.
 * For posting from the Micro.blog iOS app to WordPress and compatible weblogs, Micro.blog will look for your XML-RPC endpoint and prompt for your blog's username and password.
 
 On the server, Micro.blog responds to the following XML-RPC methods:
 
-* `blogger.newPost`
-* `blogger.deletePost`
-* `blogger.getPost`
-* `blogger.getRecentPosts`
-* `blogger.deletePost`
+* `metaWeblog.newPost`
+* `metaWeblog.editPost`
+* `metaWeblog.deletePost`
+* `metaWeblog.getPost`
+* `metaWeblog.getRecentPosts`
+* `metaWeblog.deletePost`
+* `metaWeblog.newMediaObject`
 
 From the iOS client, Micro.blog calls the following XML-RPC methods:
 
-* `blogger.getUserInfo`
-* `blogger.newPost`
+* `metaWeblog.getUserInfo`
+* `metaWeblog.newPost`
 * `wp.newPost`
 * `wp.getTerms`
 * `metaWeblog.newMediaObject`
