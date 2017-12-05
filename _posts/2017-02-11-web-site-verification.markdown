@@ -17,8 +17,6 @@ For example:
 </head>
 ```
 
-Using WordPress? You can use the plugin [Insert Headers and Footers](https://wordpress.org/plugins/insert-headers-and-footers/) to add the `<link>` tag to your header. Click on WP Admin → Plugins → Add New, and search for "Insert Headers and Footers" by WPBeginner.
-
 Another great option is to link to your Micro.blog profile somewhere on your web site, such as in a sidebar or menu. This makes it easier for people to follow you on Micro.blog.
 
 ```
@@ -26,3 +24,7 @@ Another great option is to link to your Micro.blog profile somewhere on your web
 ```
 
 Once you've added one of these to your web site, reload [the Micro.blog account screen](https://micro.blog/account). Micro.blog will check your web site and then mark your username as verified.
+
+Using self-hosted WordPress? You can use the plugin [Insert Headers and Footers](https://wordpress.org/plugins/insert-headers-and-footers/) to add the `<link>` tag to your header. Click on WP Admin → Plugins → Add New, and search for "Insert Headers and Footers" by WPBeginner.
+
+Since WordPress.com doesn't support plugins, you can add a link to the header or sidebar under WP Admin → Appearance → Widgets. Add a "Custom HTML" widget with an `<a href>` link as shown above. Don't forget `rel="me"`!
