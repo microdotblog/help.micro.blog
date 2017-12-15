@@ -37,6 +37,15 @@ HTTP/1.1 202 Accepted
 Location: https://username.micro.blog/uploads/123.jpg
 ```
 
+When creating a new post, the Micropub API also accepts a "name" parameter to give the post a title:
+
+```
+POST /micropub
+Authorization: Bearer 123456789
+
+h=entry&name=Hello&content=This%20post%20is%20longer.
+```
+
 Micro.blog supports Micropub on both the server and from the Micro.blog iOS app:
 
 * For posting from a third-party client to a Micro.blog-hosted microblogs, you can use IndieAuth or generate an app token under Account → "App tokens". If you use a token, set it the `Authorization: Bearer` header.
@@ -64,7 +73,6 @@ On the server, Micro.blog responds to the following XML-RPC methods:
 * `metaWeblog.deletePost`
 * `metaWeblog.getPost`
 * `metaWeblog.getRecentPosts`
-* `metaWeblog.deletePost`
 * `metaWeblog.newMediaObject`
 
 From the iOS client, Micro.blog calls the following XML-RPC methods:
