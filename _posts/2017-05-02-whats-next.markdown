@@ -7,13 +7,15 @@ description: Some of the features and bugs we're working on.
 Now that Micro.blog is available to Kickstarter backers and more users, we're working on many improvements leading up to the public launch. Here are some of the features and bugs we're working on:
 
 * Connectivity problems (blank screens) on some cellular networks.
-* Support for scrolling back further in the timeline.
 * More hosted microblog themes.
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
 * Improvements to @-mention support to be more consistent across blogs.
 
 We've recently finished these changes:
 
+* Fixed sharing photos from other iOS apps.
+* Added Posts link to the navbar and improved access to editing posts.
+* Added support for scrolling back further in the timeline on iOS and macOS.
 * Added an official Mac app, plus updates to the iOS version for the iPhone X.
 * Fixed some pins not getting automatically unlocked.
 * Improved Discover screens to show a timeline of a selection of posts from the community.
