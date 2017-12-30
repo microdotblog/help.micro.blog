@@ -55,6 +55,7 @@ The following endpoints are supported:
 * `DELETE /posts/[id]` — Delete one of your posts, replies, or favorites for the given `id`.
 * `POST /users/follow` — Follow user with `username` param.
 * `POST /users/unfollow` — Unfollow `username`.
+* `GET /users/is_following?username=[username]` — Check if you're following `username`.
 * `POST /micropub` — Posting for a hosted microblog uses the Micropub API. [See the documentation](http://help.micro.blog/2017/api-posting/) for more information about posting.
 
 You should pass an authorization token as an HTTP header. This token can be retrieved via `/account/signin` or by the user under Account → Edit Apps. This is what sending the HTTP token looks like:
