@@ -77,8 +77,8 @@ On the server, Micro.blog responds to the following XML-RPC methods:
 
 From the iOS client, Micro.blog calls the following XML-RPC methods:
 
-* `metaWeblog.getUserInfo`
-* `metaWeblog.newPost`
+* `blogger.getUserInfo`
+* `blogger.newPost`
 * `wp.newPost`
 * `wp.getTerms`
 * `metaWeblog.newMediaObject`
