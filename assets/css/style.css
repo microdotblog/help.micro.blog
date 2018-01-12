@@ -659,6 +659,10 @@ code {
 }
 
 .logo {
-	width: 400px;
+	width: 450px;
 	height: auto;
+}
+
+p {
+	margin-top: 20px;
 }
