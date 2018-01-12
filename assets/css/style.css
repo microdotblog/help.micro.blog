@@ -661,6 +661,7 @@ code {
 .logo {
 	width: 450px;
 	height: auto;
+	padding-bottom: 30px;
 }
 
 ul {
