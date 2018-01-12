@@ -36,9 +36,6 @@ Newer versions of WordPress have the concept of post formats. Normal blog posts 
 
 While not all themes support post formats, most of the default themes do. If you're using a common WordPress theme, chances are good that it has basic support for "Status" or "Aside" already.
 
-screenshot of editing the post format
-screenshot of the default WordPress them for statuses
-
 It might be tempting to embrace all the post formats — for example, using the "Image" format when posting a photo to your microblog — but that adds some complexity that won't be well-supported in most tools. To keep things simple, use "Standard" for longer posts with titles, and "Status" or "Aside" for all your microblog posts: short posts and photo posts. You can always introduce additional formats later when you're comfortable with the basics.
 
 (Ready for more advanced post types? The IndieWeb-friendly [Post Kinds plugin](https://wordpress.org/plugins/indieweb-post-kinds/) from David Shanske introduces even more post types such as photo, check-in, reply, and like.)
