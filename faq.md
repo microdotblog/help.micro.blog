@@ -6,7 +6,7 @@ profile: true
 
 **What is Micro.blog?** — A new social network and publishing platform for independent microblogs, created by Manton Reece.
 
-**What are the paid plans on Micro.blog for?** — Micro.blog is free for basic accounts and paid for extra features. Micro.blog can host your microblog for $5/month, including cross-posting to other social media platforms. If you host your own microblog, you can get the cross-posting feature for $2/month.
+**What are the paid plans on Micro.blog for?** — Micro.blog is free for basic accounts and paid for extra features. Micro.blog can host your microblog for $5/month, including cross-posting to other social media platforms. If you host your own microblog, you can get the cross-posting feature for $2/month. [See this help page](http://help.micro.blog/2018/pricing/) for more details on pricing.
 
 **Why haven't I received my invite yet?** — Invites to Kickstarter backers have all been sent out. Please check your spam folder, if you are a Kickstarter backer and have not received your invite. Emails will come from the address `help@micro.blog` with the subject "Micro.blog invite". If you cannot find your invite, please email [help@micro.blog](mailto:help@micro.blog).
 
