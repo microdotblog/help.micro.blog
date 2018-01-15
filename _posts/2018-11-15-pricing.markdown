@@ -40,3 +40,5 @@ Here's how the plans work. You can add one or more cross-posting bots, or create
 * SSL for your custom domain.
 * WordPress import including redirecting previous URLs.
 * Mirror your microblog to GitHub Pages.
+
+Thanks for supporting Micro.blog!
