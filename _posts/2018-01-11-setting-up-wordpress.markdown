@@ -50,11 +50,11 @@ If you’d like to have separate feeds for different types of posts, use the cat
 
 For example, to only return posts with category ID "5":
 
-`/index.php?feed=rss2&cat=5`
+`/feed/?cat=5`
 
 To return all posts _except_ that category, prefix the number with a minus sign:
 
-`/index.php?feed=rss2&cat=-5`
+`/feed/?cat=-5`
 
 Micro.blog can work with RSS, Atom, or JSON Feeds. JSON Feed is a good default choice if you're just setting up your account.
 
