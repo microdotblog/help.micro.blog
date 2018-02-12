@@ -9,9 +9,12 @@ Now that Micro.blog is available to Kickstarter backers and more users, we're wo
 * Connectivity problems (blank screens) on some cellular networks.
 * More hosted microblog themes.
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
+* Multiple account support without signing out.
 
 We've recently finished these changes:
 
+* Added swipe on iOS to view the conversation.
+* Added settings icon on iOS to quickly disable cross-posting.
 * Added discover topics based on emoji included in a post, such as 📚.
 * Improved @-mention support to be more consistent across blogs.
 * Fixed sharing photos from other iOS apps.
