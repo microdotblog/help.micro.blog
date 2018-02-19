@@ -46,6 +46,7 @@ The following endpoints are supported:
 * `GET /posts/mentions` — JSON mentions for the signed-in user.
 * `GET /posts/favorites` — JSON favorites for the signed-in user.
 * `GET /posts/discover` — JSON for featured posts.
+* `GET /posts/discover/[collection]` — Emoji collections, e.g. "books" and "music".
 * `GET /posts/[username]` — JSON posts written by the given user.
 * `GET /posts/conversation?id=[id]` — JSON thread for a reply.
 * `GET /posts/check?since_id=[id]` — Check whether there are new posts in the timeline. The response also includes a suggestion for the number of seconds to wait before polling again.
