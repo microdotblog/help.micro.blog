@@ -54,6 +54,12 @@ sunlit://get-url?story=Vacation
 
 > Return the URL for a published story using x-callback-url. The published URL will be added in the query parameter `url`.
 
+```
+sunlit://post?text=Hello%20world
+```
+
+> Creates a new story from an image on the clipboard and the `text` parameter. Automatically publishes the story to your blog. The published URL will be included in the x-callback-url response.
+
 ### x-callback-url
 
 To return to another app after Sunlit processes the request, include an [x-callback-url](http://x-callback-url.com/) action when calling Sunlit, with an `x-success` value of the other app's URL scheme.
