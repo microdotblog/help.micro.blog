@@ -40,7 +40,13 @@ sunlit://create?story=Vacation
 sunlit://add-photo?story=Vacation
 ```
 
-> Add a photo from the clipboard to an existing story. The clipboard can contain one or more images. (Can be used with Launch Center Pro or Workflow to add photos from other apps.)
+> Add photos from the clipboard to an existing story. The clipboard can contain one or more photos. (Can be used with Launch Center Pro or Workflow to add photos from other apps.)
+
+```
+sunlit://post?text=Hello%20world
+```
+
+> Creates a new story from the photos on the clipboard and the `text` parameter. Automatically publishes the story to your blog. The published URL will be included in the x-callback-url response.
 
 ```
 sunlit://get-stories
@@ -53,12 +59,6 @@ sunlit://get-url?story=Vacation
 ```
 
 > Return the URL for a published story using x-callback-url. The published URL will be added in the query parameter `url`.
-
-```
-sunlit://post?text=Hello%20world
-```
-
-> Creates a new story from an image on the clipboard and the `text` parameter. Automatically publishes the story to your blog. The published URL will be included in the x-callback-url response.
 
 ### x-callback-url
 
