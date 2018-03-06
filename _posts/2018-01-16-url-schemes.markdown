@@ -14,7 +14,7 @@ microblog://post?text=Hello%20world
 
 For posting directly to Micro.blog-hosted blogs without using the apps, [see the posting API](http://help.micro.blog/2017/api-posting/).
 
-### Sunlit for iOS (in beta)
+### Sunlit for iOS
 
 The companion app to Micro.blog for photos, Sunlit for iOS, supports additional URL schemes for managing stories.
 
