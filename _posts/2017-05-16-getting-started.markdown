@@ -8,7 +8,7 @@ So you've created an account on Micro.blog. Thanks! We're glad to have you. Here
 
 **First**, create a new microblog or tell Micro.blog about your existing blog:
 
-* If you don't have an existing blog, consider letting Micro.blog host it for you by choosing "New..." → "New microblog site". You'll get everything you need: a new blog, posting from the web or iPhone, photo hosting, and the ability to map a personal domain name to your blog.
+* If you don't have an existing blog, consider letting Micro.blog host it for you by choosing "Plans" → "New Microblog". You'll get everything you need: a new blog, posting from the web or iPhone, photo hosting, and the ability to map a personal domain name to your blog.
 * If you already have a blog, such as one based on WordPress, connect it to Micro.blog by adding the feed URL to your account under Account → "Edit Feeds". Now all your blog posts will appear under your Micro.blog profile and in the timeline of friends who are following you.
 
 **Second**, verify that you are the author of your microblog:
