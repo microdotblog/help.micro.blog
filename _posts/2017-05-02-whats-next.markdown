@@ -4,15 +4,29 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-Now that Micro.blog is available to Kickstarter backers and more users, we're working on many improvements leading up to the public launch. Here are some of the features and bugs we're working on:
+Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
-* Connectivity problems (blank screens) on some cellular networks.
 * More hosted microblog themes.
+* Add "Show More" button to the web version of Micro.blog.
+* Add way to see who someone is following in the web version.
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
-* Multiple account support without signing out.
+* Multiple account support without signing out on iOS.
+* Improve accessibility of iOS app and web site.
+* Add more user options such as block and mute.
+* Add toggle for non-square photos in iOS app.
 
 We've recently finished these changes:
 
+* Released companion microcast app Wavelength for iPhone.
+* Added microcast hosting and podcast feeds, plus general support for audio tags.
+* Added multiple account and multiple blog support to Micro.blog for Mac.
+* Added custom site titles for people with more than one blog.
+* Fixed media upload to make files available more quickly on published blogs.
+* Fixed several issues with feed refresh and performance.
+* Fixed connectivity problems (blank screens) on some cellular networks.
+* Fixed appending the first link in a post to Facebook cross-post.
+* Updated source of built-in themes on GitHub.
+* Released new companion photos app Sunlit for iOS.
 * Added swipe on iOS to view the conversation.
 * Added settings icon on iOS to quickly disable cross-posting.
 * Added discover topics based on emoji included in a post, such as 📚.
