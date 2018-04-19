@@ -13,3 +13,5 @@ Start in MarsEdit by creating a new weblog. When prompted for the URL, enter you
 If you need to manually configure a blogging client, choose the MetaWeblog API and point it to `micro.blog/xmlrpc`. This usually won't be necessary if the client has already discovered the proper settings.
 
 Posting from MarsEdit supports microblog posts (leave the title blank), full posts with a title, and uploading photos. Limited HTML is also allowed and won't be escaped.
+
+Because Micro.blog uses Markdown, we recommend keeping MarsEdit in "Plain Text Mode" instead of "Rich Text". You can switch this under the Post menu in MarsEdit.
