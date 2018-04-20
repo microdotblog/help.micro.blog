@@ -13,10 +13,11 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 * Multiple account support without signing out on iOS.
 * Improve accessibility of iOS app and web site.
 * Add more user options such as block and mute.
-* Add toggle for non-square photos in iOS app.
 
 We've recently finished these changes:
 
+* Added toggle for posting non-square photos in iOS app.
+* Added new blog theme Marfa.
 * Released companion microcast app Wavelength for iPhone.
 * Added microcast hosting and podcast feeds, plus general support for audio tags.
 * Added multiple account and multiple blog support to Micro.blog for Mac.
