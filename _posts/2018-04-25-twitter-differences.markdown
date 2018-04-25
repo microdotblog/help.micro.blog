@@ -4,21 +4,21 @@ date:   2018-04-25 11:05:00
 description: Comparing features between the platforms.
 ---
 
-## On Micro.blog, you control your own content.
+### On Micro.blog, you control your own content.
 
 Tweeting is one form of microblogging. But when you use Twitter, your content stays at Twitter. At Micro.blog, you can write short posts that appear in the Micro.blog timeline, as well as on your own blog that you control.
 
 That’s the most important thing to understand about Micro.blog. It is a bit like Twitter, in that you can share short thoughts, links, and photos with those who follow you, but it also offers tools and hosting similar to WordPress for short-form content.
 
-## Micro.blog is serious about preventing abuse and harassment.
+### Micro.blog is serious about preventing abuse and harassment.
 
 The next most important thing to understand about Micro.blog is that the platform was designed, from the beginning, to prevent abuse and harassment. Your microblog is your own, where you are free to write about whatever you want, but we protect the timeline, where you can @-reply others, through a variety of tools and curation. We have community guidelines that are enforced.
 
-## You can cross-post from Micro.blog to Twitter. 
+### You can cross-post from Micro.blog to Twitter. 
 
 All your Micro.blog posts will appear in your Twitter timeline, if you choose, or you can selectively post only some of them. 
 
-## Micro.blog is not an attempt to duplicate or replace Twitter. 
+### Micro.blog is not an attempt to duplicate or replace Twitter. 
 
 Because our focus is on supporting thoughtful content creation and avoiding the pitfalls of social networks, we don’t have features you are familiar with from Twitter.
 
