@@ -17,17 +17,6 @@ Here's how the plans work. You can add one or more cross-posting bots, or create
 * No Micro.blog-hosted blog.
 * No page at `username.micro.blog`.
 
-**Cross-posting: $2/month**
-
-* All the basics.
-* Cross-posting to Twitter and Facebook from any RSS or JSON feed.
-* Supports long or short posts, with a link back to your site if necessary.
-* Smart truncation when sending a tweet so that words aren't split in half.
-* Automatically extract the first link in your post and appends it to your tweet.
-* Automatically downloads up to 4 photos referenced in your post to attach directly to your tweet.
-* No Micro.blog-hosted blog.
-* No page at `username.micro.blog`.
-
 **Hosted microblog: $5/month**
 
 * All the basics.
@@ -40,5 +29,23 @@ Here's how the plans work. You can add one or more cross-posting bots, or create
 * SSL for your custom domain.
 * WordPress import including redirecting previous URLs.
 * Mirror your microblog to GitHub Pages.
+
+**Hosted microblog + hosted microcasts: $10/month**
+* All the hosted microblog features
+* Hosting for microcasts, i.e. short podcasts
+* Audio file size limited to 20MB
+
+**Cross-posting: $2/month**
+
+* All the basics.
+* Cross-posting to Twitter and Facebook from any RSS or JSON feed.
+* Supports long or short posts, with a link back to your site if necessary.
+* Smart truncation when sending a tweet so that words aren't split in half.
+* Automatically extract the first link in your post and appends it to your tweet.
+* Automatically downloads up to 4 photos referenced in your post to attach directly to your tweet.
+* No Micro.blog-hosted blog.
+* No page at `username.micro.blog`.
+
+
 
 Thanks for supporting Micro.blog!
