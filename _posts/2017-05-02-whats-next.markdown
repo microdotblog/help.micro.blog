@@ -4,6 +4,8 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
+_Last updated: April 30, 2018._
+
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
 * More hosted microblog themes.
@@ -16,6 +18,8 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 
 We've recently finished these changes:
 
+* Added Medium.com support for cross-posting.
+* Improved speed of hosted sites showing up in the Micro.blog timeline.
 * Added toggle for posting non-square photos in iOS app.
 * Added new blog theme Marfa.
 * Released companion microcast app Wavelength for iPhone.
