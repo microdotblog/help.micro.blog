@@ -16,3 +16,5 @@ After you have the .zip file, double-click on it on your Mac to uncompress it if
 * Navigate to the downloaded archive folder and select the media.json file.
 
 You can now select a few or all of your photos to import. We recommend starting with just a few to test that everything is working well, and then go back to import additional batches of photos to your blog. Micro.blog will use the current blog you have configured to post to in the app.
+
+A note about multiple-photo posts on Instagram: The archive from Instagram doesn't appear to include the text from Instagram posts that have more than 1 photo. They are also split into multiple blog posts. If you'd like to fix this to combine multiple blog posts, you can edit or delete them from your blog.
