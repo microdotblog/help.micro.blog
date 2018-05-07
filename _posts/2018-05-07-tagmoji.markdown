@@ -1,0 +1,29 @@
+---
+title:  "Emoji in Discover"
+date:   2018-05-05 08:45:00
+description: Using emoji to collect posts together.
+---
+
+Micro.blog doesn't currently have hashtags. We are using emoji as a way to automatically collect posts together. [Manton has blogged](https://www.manton.org/2018/01/books-on-micro-blog.html) more about this.
+
+Micro.blog user [@burk](https://micro.blog/burk) also [maintains a separate list](https://burk.io/discover/) with new emoji suggestions from the community.
+
+|-------------------------|--------------|-----------------------------|
+| **Books & Reading**     | 📚 📖 🔖 | [https://micro.blog/discover/books](https://micro.blog/discover/books) |
+| **Music**               | 🎵 🎶 | [https://micro.blog/discover/music](https://micro.blog/discover/music) |
+| **Space**               | 🚀 | [https://micro.blog/discover/rocket](https://micro.blog/discover/rocket) |
+| **Sports/Basketball**   | 🏀 | [https://micro.blog/discover/basketball](https://micro.blog/discover/basketball) |
+| **Sports/Football**     | 🏈 | [https://micro.blog/discover/football](https://micro.blog/discover/football) |
+| **Sports/Rugby**        | 🏉 | [https://micro.blog/discover/rugby](https://micro.blog/discover/rugby) |
+| **Sports/Soccer**       | ⚽️ | [https://micro.blog/discover/soccer](https://micro.blog/discover/soccer) |
+| **Sports/Tennis**       | 🎾 | [https://micro.blog/discover/tennis](https://micro.blog/discover/tennis) |
+| **Star Trek**           | 🖖 | [https://micro.blog/discover/startrek](https://micro.blog/discover/startrek) |
+| **TV**                  | 📺 | [https://micro.blog/discover/tv](https://micro.blog/discover/tv) |
+| **Video Games**         | 🎮 🕹 | [https://micro.blog/discover/videogames](https://micro.blog/discover/videogames) |
+
+The following topics work a little differently. They are either curated manually (photos) or automatically collected from keywords (podcasts and Micro Monday recommendations):
+
+|-------------------------|--------------|-----------------------------|
+| **Photos**              | 📷 | [https://micro.blog/discover/photos]([https://micro.blog/discover/photos) |
+| **Podcasts**            | 🎙️ | [https://micro.blog/discover/podcasts](https://micro.blog/discover/podcasts) |
+| **Micro Monday**        | "Micro Monday"    | [https://micro.blog/discover/micromonday](https://micro.blog/discover/micromonday) |
