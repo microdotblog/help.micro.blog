@@ -1,5 +1,5 @@
 ---
-title:  "What Is The Difference Between Micro.blog and Twitter?"
+title:  "What is the difference between Micro.blog and Twitter?"
 date:   2018-04-25 11:05:00
 description: Comparing features between the platforms.
 ---
