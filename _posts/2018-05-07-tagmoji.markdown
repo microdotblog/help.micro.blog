@@ -24,6 +24,6 @@ Micro.blog user [@burk](https://micro.blog/burk) also [maintains a separate list
 The following topics work a little differently. They are either curated manually (photos) or automatically collected from keywords (podcasts and Micro Monday recommendations):
 
 |-------------------------|--------------|-----------------------------|
-| **Photos**              | 📷 | [https://micro.blog/discover/photos]([https://micro.blog/discover/photos) |
+| **Photos**              | 📷 | [https://micro.blog/discover/photos](https://micro.blog/discover/photos) |
 | **Podcasts**            | 🎙️ | [https://micro.blog/discover/podcasts](https://micro.blog/discover/podcasts) |
 | **Micro Monday**        | "Micro Monday"    | [https://micro.blog/discover/micromonday](https://micro.blog/discover/micromonday) |
