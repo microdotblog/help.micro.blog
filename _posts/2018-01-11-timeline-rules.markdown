@@ -14,3 +14,20 @@ Micro.blog follows a few rules when processing your RSS or JSON Feed into microb
 For any other kind of post with a title, the title is shown in the timeline with a link back to the full post on your web site. Micro.blog displays your domain name when it needs to append a link to your post.
 
 Micro.blog counts characters for the text version of your post, excluding the extra characters used in any HTML tags.
+
+## Allowed HTML tags
+
+Micro.blog removes some HTML from blog posts before displaying them in the timeline. The following HTML elements are currently supported:
+
+* `a`, `span`, `b`, `i`, `img`, `strong`, `em`, `div`, `p`, `br`, `blockquote`, `ul`, `ol`, `li`, `code`, `pre`, `audio`
+
+And these attributes are allowed on certain elements:
+
+* **`a`**: `href`, `title`, `class`
+* **`span`**: `style`, `class`
+* **`img`**: `src`, `style`, `class`, `width`, `height`, `alt`
+* **`audio`**: `src`, `controls`
+
+For `style`, only these CSS property names are allowed:
+
+* `width`, `height`, `max-width`, `max-height`, `min-width`, `min-height`, `border`
