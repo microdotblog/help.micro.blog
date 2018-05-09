@@ -12,7 +12,7 @@ Here's an example of using the SVG in an `img` tag:
 
 ```
 <a href="https://micro.blog/your-username">
-	<img src="https://help.micro.blog/assets/images/icons/web/icon.svg" alt="Follow me on Micro.blog" width="24" height="24" />
+  <img src="https://help.micro.blog/assets/images/icons/web/icon.svg" alt="Follow me on Micro.blog" width="24" height="24" />
 </a>
 ```
 
@@ -20,8 +20,8 @@ If you'd like to color the icon, use an `svg` tag with a `fill` CSS property. Th
 
 ```
 <a href="https://micro.blog/your-username">
-	<svg style="width: 24px; height: 24px; fill: #FD9927;">
-		<use xlink:href="https://help.micro.blog/assets/images/icons/web/icon.svg#Layer_1" />
-	</svg>
+  <svg style="width: 24px; height: 24px; fill: #FD9927;">
+    <use xlink:href="https://help.micro.blog/assets/images/icons/web/icon.svg#Layer_1" />
+  </svg>
 </a>
 ```
