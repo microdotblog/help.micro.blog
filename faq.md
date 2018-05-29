@@ -20,7 +20,7 @@ profile: true
 
 **When I try to post to my new microblog from iOS or the Mac, why does it prompt for an external site?** — If you created your hosted microblog after signing in to the native apps, you may need to sign out and then back in from the apps for your new site to be recognized. We're fixing this for the next version.
 
-**Why do I see all replies in the timeline, even those directed at people I don't follow?** — We wanted to show all replies by default to make it easier to find new users to follow. There will be an option to hide some replies later.
+**Why do I see all replies in the timeline, even those directed at people I don't follow?** — We wanted to show all replies by default to make it easier to find new users to follow. You can change this setting under Account → Timeline on the web.
 
 **When I tap to stop scrolling in the iOS app, should Micro.blog really show the menu?** — This is a known issue that will be fixed in a future version.
 
