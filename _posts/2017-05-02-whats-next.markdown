@@ -4,7 +4,7 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-_Last updated: April 30, 2018._
+_Last updated: June 15, 2018._
 
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
@@ -18,6 +18,8 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 
 We've recently finished these changes:
 
+* Improved reliability of photo uploads.
+* Added timeline option (under Account on the web) to hide replies from people you aren't following.
 * Added Medium.com support for cross-posting.
 * Improved speed of hosted sites showing up in the Micro.blog timeline.
 * Added toggle for posting non-square photos in iOS app.
