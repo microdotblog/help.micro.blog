@@ -14,10 +14,6 @@ The service [OwnYourGram](https://ownyourgram.com/) can take your Instagram phot
 
 2. In Instagram itself, make sure to include the URL for your Micro.blog-hosted blog, such as `http://your-username.micro.blog/`. OwnYourGram will use this to verify that your microblog and Instagram account are owned by the same person.
 
-3. You'll also need to repeat these steps for Twitter or GitHub, which OwnYourGram will use to authorize your account. Enter your Twitter or GitHub username under Account → Edit Apps. Make sure that whichever service you use, your profile also links back to your Micro.blog-hosted blog URL.
-
-4. Your account in Micro.blog should be verified. You can do this by entering `http://your-username.micro.blog/` for your site URL under Account if it's not already there.
-
-5. In [OwnYourGram](https://ownyourgram.com/), enter your microblog URL when signing up. OwnYourGram will walk you through setting up your account and publishing your first photo from Instagram.
+3. In [OwnYourGram](https://ownyourgram.com/), enter your microblog URL when signing up. OwnYourGram will walk you through setting up your account and publishing your first photo from Instagram.
 
 While using OwnYourGram, you can still post photos and microblog posts separately to Micro.blog whenever you'd like to using the Micro.blog app. To disable OwnYourGram's automatic posting, click the "Disconnect Instagram" button in the OwnYourGram dashboard.
