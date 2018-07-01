@@ -1,0 +1,12 @@
+---
+title:  "IndieWeb Ring"
+date:   2018-07-01 14:15:00
+description: 🕸💍
+---
+
+[IndieWeb Ring](https://🕸💍.ws/) is a modern take on the 1990s-era [web rings](https://en.wikipedia.org/wiki/Webring) for connecting sites together. To add a web ring to your Micro.blog-hosted site:
+
+1. Sign in to [IndieWeb Ring](https://🕸💍.ws/) using your custom domain or Micro.blog subdomain such as your-username.micro.blog.
+2. IndieWeb Ring will generate a unique emoji for your site and a snippet of HTML that you can add to your site. Copy and paste this HTML into Micro.blog under Posts → "Edit Domain & Design" → Footer.
+
+You can edit the HTML or add custom CSS to style your web ring links. When someone clicks the next or previous links on your footer, they will be taken to another site in the ring. Someone may discover your blog by clicking on a link from someone else's site too.
