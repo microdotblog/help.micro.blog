@@ -18,6 +18,9 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 
 We've recently finished these changes:
 
+* Added support for IndieBookClub.
+* Added ability to set custom footer HTML in any theme.
+* Improved authorization so Micro.blog is an IndieAuth provider.
 * Improved reliability of photo uploads.
 * Added timeline option (under Account on the web) to hide replies from people you aren't following.
 * Added Medium.com support for cross-posting.
