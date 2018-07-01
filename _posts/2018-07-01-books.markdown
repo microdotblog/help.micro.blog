@@ -1,0 +1,11 @@
+---
+title:  "Books on Micro.blog"
+date:   2018-07-01 14:20:00
+description: 📚
+---
+
+Many Micro.blog users love to read and want to share the books they've enjoyed or are interested in. If you include the 📚 emoji in your microblog post, Micro.blog will notice this and add your post to the Discover section. There's a list of [other special emoji here](http://help.micro.blog/2018/tagmoji/).
+
+If you use Goodreads on iOS, you can tap the Share button in Goodreads and choose the Micro.blog for iOS app to compose a new post with the title and cover of the book for easy sharing.
+
+Micro.blog also supports [IndieBookClub](https://indiebookclub.biz/) for posting about a book. When you use IndieBookClub, Micro.blog will automatically add the 📚 emoji to the end of your post and link your book title. Currently the link redirects to Amazon, although as more people post about books we may change this. (Micro.blog does not collect any referral revenue from Amazon.)
