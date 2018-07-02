@@ -8,12 +8,15 @@ In addition to [the official iOS app](https://itunes.apple.com/us/app/micro-blog
 
 * [Quill](https://quill.p3k.io/) — Web browser client that can post to Micro.blog and upload photos.
 * [OwnYourGram](http://ownyourgram.com/) — Automatically posts your Instagram photos to your microblog.
-* [Omnibear](https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn) — Chrome extension for simple posting.
+* [OwnYourGram](https://ownyourswarm.p3k.io/) — Automatically posts your Swarm check-ins to your microblog.
+* [IndieBookClub](https://indiebookclub.biz/) — Post what books you're reading to Micro.blog.
+* [Omnibear](https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn) — Chrome or Firefox extension for simple posting.
 * [Micropublish](https://micropublish.net/) — Another web client for posting notes or reposts.
 
 There are also some apps specifically for Micro.blog:
 
 * [Icro](https://itunes.apple.com/us/app/icro/id1375296597?ls=1&mt=8) — iOS app for Micro.blog with timeline, posting, and more.
+* [Dialog](https://play.google.com/store/apps/details?id=com.dialogapp.dialog) — Android app in public beta.
 * [TodayPoster](https://github.com/bryanluby/TodayPoster) — macOS Today Widget for posting.
 * [MicroBlog Desktop](http://matthewroach.me/micro-blog-desktop/) — macOS app built with Electron.
 
