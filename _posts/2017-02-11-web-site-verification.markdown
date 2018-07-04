@@ -28,3 +28,13 @@ Once you've added one of these to your web site, reload [the Micro.blog account 
 Using self-hosted WordPress? You can use the plugin [Insert Headers and Footers](https://wordpress.org/plugins/insert-headers-and-footers/) to add the `<link>` tag to your header. Click on WP Admin → Plugins → Add New, and search for "Insert Headers and Footers" by WPBeginner.
 
 Since WordPress.com doesn't support plugins, you can add a link to the header or sidebar under WP Admin → Appearance → Widgets. Add a "Custom HTML" widget with an `<a href>` link as shown above. Don't forget `rel="me"`!
+
+Micro.blog can also serve as an IndieAuth provider for your blog. If you're using the built-in Micro.blog hosting, this will be configured automatically for you. If you host your blog on an external site outside of Micro.blog, you can use Micro.blog by adding these link headers to your site:
+
+```
+<head>
+  <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
+  <link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
+  ...
+</head>
+```
