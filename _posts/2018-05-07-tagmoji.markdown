@@ -9,7 +9,7 @@ Micro.blog doesn't currently have hashtags. We are using emoji as a way to autom
 Micro.blog user [@burk](https://micro.blog/burk) also [maintains a separate list](https://burk.io/discover/) with new emoji suggestions from the community.
 
 |-------------------------|--------------|-----------------------------|
-| **Books & Reading**     | 📚 📖 🔖 | [https://micro.blog/discover/books](https://micro.blog/discover/books) |
+| **Books & Reading**     | 📚 📖  | [https://micro.blog/discover/books](https://micro.blog/discover/books) |
 | **Music**               | 🎵 🎶 | [https://micro.blog/discover/music](https://micro.blog/discover/music) |
 | **Space**               | 🚀 | [https://micro.blog/discover/rocket](https://micro.blog/discover/rocket) |
 | **Sports/Basketball**   | 🏀 | [https://micro.blog/discover/basketball](https://micro.blog/discover/basketball) |
@@ -17,9 +17,12 @@ Micro.blog user [@burk](https://micro.blog/burk) also [maintains a separate list
 | **Sports/Rugby**        | 🏉 | [https://micro.blog/discover/rugby](https://micro.blog/discover/rugby) |
 | **Sports/Soccer**       | ⚽️ | [https://micro.blog/discover/soccer](https://micro.blog/discover/soccer) |
 | **Sports/Tennis**       | 🎾 | [https://micro.blog/discover/tennis](https://micro.blog/discover/tennis) |
+| **Sports/Baseball**       | ⚾️ | [https://micro.blog/discover/baseball](https://micro.blog/discover/baseball) |
 | **Star Trek**           | 🖖 | [https://micro.blog/discover/startrek](https://micro.blog/discover/startrek) |
 | **TV**                  | 📺 | [https://micro.blog/discover/tv](https://micro.blog/discover/tv) |
 | **Video Games**         | 🎮 🕹 | [https://micro.blog/discover/videogames](https://micro.blog/discover/videogames) |
+| **Pizza**         | 🍕 | [https://micro.blog/discover/pizza](https://micro.blog/discover/pizza) |
+| **Travel**         | 🗺 | [https://micro.blog/discover/travel](https://micro.blog/discover/travel) |
 
 The following topics work a little differently. They are either curated manually (photos) or automatically collected from keywords (podcasts and Micro Monday recommendations):
 
