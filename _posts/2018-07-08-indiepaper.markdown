@@ -6,7 +6,7 @@ description: Save articles to read later.
 
 [Indiepaper](https://indiepaper.io/) is a new service for saving the text of articles you find on the web and want to read later. It's in the spirit of Instapaper or Pocket, but built on IndieWeb technologies.
 
-_Support for Indiepaper in Micro.blog should be considered experimental. We think this has a lot of potential, but we'd like to hear from the community on how best to integrate read later-type features into the full Micro.blog platform._
+_Support for Indiepaper in Micro.blog should be considered experimental. We think this has a lot of potential, but we'd like to hear from the community on how best to integrate "read later" features into the full Micro.blog platform._
 
 To use Indiepaper, sign in with Micro.blog [on this page at Indiepaper.io](https://www.indiepaper.io/indieauth.html). You'll be asked to allow access to your Micro.blog account. A paid subscription to a Micro.blog-hosted blog is required to use Indiepaper.
 
