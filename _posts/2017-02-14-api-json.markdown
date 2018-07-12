@@ -41,7 +41,7 @@ The JSON API is based on [JSON Feed](https://jsonfeed.org/), the same format as 
 
 The following endpoints are supported:
 
-* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. Send us an email to help@micro.blog so we can enable this for your app. The user can also generate app tokens under Account → Edit Apps.
+* `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. Send us an email to help@micro.blog so we can enable this for your app. The user can also generate app tokens under Account → Edit Apps. Web apps should use IndieAuth for sign-in.
 * `GET /posts/all` — JSON timeline for the signed-in user.
 * `GET /posts/mentions` — JSON mentions for the signed-in user.
 * `GET /posts/favorites` — JSON favorites for the signed-in user.
@@ -59,6 +59,7 @@ The following endpoints are supported:
 * `POST /users/unfollow` — Unfollow `username`.
 * `GET /users/is_following?username=[username]` — Check if you're following `username`.
 * `GET /users/following/[username]` — List of users `username` is following.
+* `GET /users/discover/[username]` — List of users `username` is following that signed-in user isn't. The count for this is in `discover_count` from `/posts/[username]`.
 * `POST /micropub` — Posting for a hosted microblog uses the Micropub API. [See the documentation](http://help.micro.blog/2017/api-posting/) for more information about posting.
 
 You should pass an authorization token as an HTTP header. This token can be retrieved via `/account/signin` or by the user under Account → Edit Apps. This is what sending the HTTP token looks like:
