@@ -16,9 +16,11 @@ In IFTTT:
 4. In the URL, enter `https://micro.blog/micropub`. Set the method to `POST` and the content-type to `application/x-form-url-encoded`.
 5. In the body, paste in this example:
 
+{% raw %}
 ```
 access_token=ABCDEF&content=<<{{EntryContent}}>>&name=<<{{FeedTitle}}>>
 ```
+{% endraw %}
 
 Replace ABCDEF with a Micro.blog app token. You can generate a new app token for IFTTT under Account → Edit Apps on Micro.blog on the web.
 
