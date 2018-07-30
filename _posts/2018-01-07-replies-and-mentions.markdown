@@ -16,6 +16,6 @@ There are several rules for processing replies and mentions:
 
 * For blogs hosted externally to Micro.blog, such as with WordPress, you are responsible for linking usernames for Micro.blog users you want to mention. Just including @username without a link will have no effect. It should be something like `<a href="https://micro.blog/username">@username</a>` to indicate to Micro.blog that a specific user should be notified. Micro.blog does not automatically link any text in external blog posts. (By adding links yourself, posts will show up correctly not just on Micro.blog but also on your web site and in feed readers.)
 
-* For an external blog post that is a reply to a specific Micro.blog post, the external blog can send a Webmention to Micro.blog. As long as the sending blog is associated with a Micro.blog user, that post will be copied to Micro.blog as a reply and threaded into the conversation.
+* For an external blog post that is a reply to a specific Micro.blog post, the external blog can send a Webmention to Micro.blog. As long as the sending blog is associated with a Micro.blog user, that post will be copied to Micro.blog as a reply and threaded into the conversation. Micro.blog's Webmention endpoint is: `https://micro.blog/webmention`
 
 If you're signed in to Micro.blog, you can [export your replies here](https://micro.blog/account/export/replies) in JSON Feed format. Any @-mentions for hosted blogs (where the text does not start with a username) can be found in your microblog archive.
