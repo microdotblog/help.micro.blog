@@ -15,6 +15,8 @@ RSS and JSON feeds are available for hosted blogs and to retrieve the timeline f
 
 * `https://micro.blog/feeds/username.json` — Friends' posts for what the specified user sees in their timeline.
 * `https://username.micro.blog/feed.json` — Posts for the published microblog.
+* `https://micro.blog/posts/discover` — Posts for the Discover section.
+* `https://micro.blog/posts/discover/books` — Posts for a specific emoji like "books". [See the emoji help page](http://help.micro.blog/2018/tagmoji/) for details.
 
 In addition to RSS and JSON, the HTML for all hosted microblogs are marked up with **Microformats** using these class names:
 
