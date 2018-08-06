@@ -12,13 +12,13 @@ To upload an MP3 on the web, under "New Post" click the audio button to select a
 
 <img src="/assets/images/newpost_audio_button.png" width="500" height="102" alt="Audio button screenshot" />
 
-MP3s should be 25 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
+MP3s should be 35 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
 
-* 64 kbps: 53 minutes
-* 96 kbps: 35 minutes
-* 112 kbps: 30 minutes
-* 128 kbps: 26 minutes (used in Wavelength)
-* 192 kbps: 17 minutes
+* 64 kbps: 74 minutes
+* 96 kbps: 49 minutes
+* 112 kbps: 42 minutes
+* 128 kbps: 36 minutes (used in Wavelength)
+* 192 kbps: 23 minutes
 
 Micro.blog uses your profile photo for the cover artwork. If you haven't uploaded a custom profile photo recently, add one under [Account](https://micro.blog/account) on the web. Micro.blog will save a high-resolution version (1400x1400) to use with podcast clients.
 
