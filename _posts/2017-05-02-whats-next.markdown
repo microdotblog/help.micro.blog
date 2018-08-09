@@ -4,13 +4,12 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-_Last updated: July 1, 2018._
+_Last updated: August 9, 2018._
 
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
 * More hosted microblog themes.
 * Add "Show More" button to the web version of Micro.blog.
-* Add way to see who someone is following in the web version.
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
 * Multiple account support without signing out on iOS.
 * Improve accessibility of iOS app and web site.
@@ -18,6 +17,10 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 
 We've recently finished these changes:
 
+* Increased MP3 file upload for podcasts to 35 MB.
+* Added podcast settings for email address and using your "about me" text as the podcast description.
+* Added support for cross-posting to Facebook pages after Facebook turned off previous posting API.
+* Updated web following list to show who you aren't following yet.
 * Added support for IndieBookClub.
 * Added ability to set custom footer HTML in any theme.
 * Improved authorization so Micro.blog is an IndieAuth provider.
