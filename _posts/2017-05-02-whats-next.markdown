@@ -4,7 +4,7 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-_Last updated: August 9, 2018._
+_Last updated: August 24, 2018._
 
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
@@ -13,10 +13,12 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
 * Multiple account support without signing out on iOS.
 * Improve accessibility of iOS app and web site.
-* Add more user options such as block and mute.
 
 We've recently finished these changes:
 
+* Added user muting under Account → Edit Muted Users, and mute and block commands in the macOS app.
+* Added reading view for articles saved via Indiepaper.
+* Fixed typing and pasting issues in the new post field on Android.
 * Increased MP3 file upload for podcasts to 35 MB.
 * Added podcast settings for email address and using your "about me" text as the podcast description.
 * Added support for cross-posting to Facebook pages after Facebook turned off previous posting API.
