@@ -9,28 +9,28 @@ Micro.blog doesn't currently have hashtags. We are using emoji as a way to autom
 Micro.blog user [@burk](https://micro.blog/burk) also [maintains a separate list](https://burk.io/discover/) with new emoji suggestions from the community.
 
 |-------------------------|--------------|-----------------------------|
-| **Books & Reading**     | 📚 📖  | [https://micro.blog/discover/books](https://micro.blog/discover/books) |
-| **Music**               | 🎵 🎶 | [https://micro.blog/discover/music](https://micro.blog/discover/music) |
-| **Space**               | 🚀 | [https://micro.blog/discover/rocket](https://micro.blog/discover/rocket) |
-| **Sports/Basketball**   | 🏀 | [https://micro.blog/discover/basketball](https://micro.blog/discover/basketball) |
-| **Sports/Football**     | 🏈 | [https://micro.blog/discover/football](https://micro.blog/discover/football) |
-| **Sports/Rugby**        | 🏉 | [https://micro.blog/discover/rugby](https://micro.blog/discover/rugby) |
-| **Sports/Soccer**       | ⚽️ | [https://micro.blog/discover/soccer](https://micro.blog/discover/soccer) |
-| **Sports/Tennis**       | 🎾 | [https://micro.blog/discover/tennis](https://micro.blog/discover/tennis) |
-| **Sports/Baseball**       | ⚾️ | [https://micro.blog/discover/baseball](https://micro.blog/discover/baseball) |
-| **Sports/Hockey**         | 🏒 | [https://micro.blog/discover/travel](https://micro.blog/discover/hockey) |
-| **Star Trek**           | 🖖 | [https://micro.blog/discover/startrek](https://micro.blog/discover/startrek) |
-| **TV**                  | 📺 | [https://micro.blog/discover/tv](https://micro.blog/discover/tv) |
-| **Video Games**         | 🎮 🕹 | [https://micro.blog/discover/videogames](https://micro.blog/discover/videogames) |
-| **Pizza**         | 🍕 | [https://micro.blog/discover/pizza](https://micro.blog/discover/pizza) |
-| **Travel**         | 🗺 | [https://micro.blog/discover/pizza](https://micro.blog/discover/travel) |
-| **Cats**         | 🐈 🐱 | [https://micro.blog/discover/travel](https://micro.blog/discover/cats) |
-| **Dogs**         | 🐕 🐶 | [https://micro.blog/discover/travel](https://micro.blog/discover/dogs) |
-| **Movies**         | 📽 🍿 🎥 | [https://micro.blog/discover/travel](https://micro.blog/discover/movies) |
+| **Books & Reading**     | 📚 📖  | [micro.blog/discover/books](https://micro.blog/discover/books) |
+| **Music**               | 🎵 🎶 | [micro.blog/discover/music](https://micro.blog/discover/music) |
+| **Space**               | 🚀 | [micro.blog/discover/rocket](https://micro.blog/discover/rocket) |
+| **Sports/Basketball**   | 🏀 | [micro.blog/discover/basketball](https://micro.blog/discover/basketball) |
+| **Sports/Football**     | 🏈 | [micro.blog/discover/football](https://micro.blog/discover/football) |
+| **Sports/Rugby**        | 🏉 | [micro.blog/discover/rugby](https://micro.blog/discover/rugby) |
+| **Sports/Soccer**       | ⚽️ | [micro.blog/discover/soccer](https://micro.blog/discover/soccer) |
+| **Sports/Tennis**       | 🎾 | [micro.blog/discover/tennis](https://micro.blog/discover/tennis) |
+| **Sports/Baseball**       | ⚾️ | [micro.blog/discover/baseball](https://micro.blog/discover/baseball) |
+| **Sports/Hockey**         | 🏒 | [micro.blog/discover/hockey](https://micro.blog/discover/hockey) |
+| **Star Trek**           | 🖖 | [micro.blog/discover/startrek](https://micro.blog/discover/startrek) |
+| **TV**                  | 📺 | [micro.blog/discover/tv](https://micro.blog/discover/tv) |
+| **Video Games**         | 🎮 🕹 | [micro.blog/discover/videogames](https://micro.blog/discover/videogames) |
+| **Pizza**         | 🍕 | [micro.blog/discover/pizza](https://micro.blog/discover/pizza) |
+| **Travel**         | 🗺 | [micro.blog/discover/pizza](https://micro.blog/discover/travel) |
+| **Cats**         | 🐈 🐱 | [micro.blog/discover/cats](https://micro.blog/discover/cats) |
+| **Dogs**         | 🐕 🐶 | [micro.blog/discover/dogs](https://micro.blog/discover/dogs) |
+| **Movies**         | 📽 🍿 🎥 | [micro.blog/discover/movies](https://micro.blog/discover/movies) |
 
 The following topics work a little differently. They are either curated manually (photos) or automatically collected from keywords (podcasts and Micro Monday recommendations):
 
 |-------------------------|--------------|-----------------------------|
-| **Photos**              | 📷 | [https://micro.blog/discover/photos](https://micro.blog/discover/photos) |
-| **Podcasts**            | 🎙️ | [https://micro.blog/discover/podcasts](https://micro.blog/discover/podcasts) |
-| **Micro Monday**        | "Micro Monday"    | [https://micro.blog/discover/micromonday](https://micro.blog/discover/micromonday) |
+| **Photos**              | 📷 | [micro.blog/discover/photos](https://micro.blog/discover/photos) |
+| **Podcasts**            | 🎙️ | [micro.blog/discover/podcasts](https://micro.blog/discover/podcasts) |
+| **Micro Monday**        | "Micro Monday"    | [micro.blog/discover/micromonday](https://micro.blog/discover/micromonday) |
