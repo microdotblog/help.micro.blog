@@ -14,4 +14,4 @@ Micro.blog supports several formats and protocols pioneered by the <a href="http
 
 **WebSub:** Micro.blog can subscribe to blogs using WebSub to receive real-time notifications for when a blog post is published.
 
-**IndieAuth:** Signing in with your own domain name. Micro.blog is an IndieAuth provider. To learn more about IndieAuth, visit [IndieAuth.net](https://indieauth.net/) or the Micro.blog [help page on authentication](http://asdf/).
+**IndieAuth:** Signing in with your own domain name. Micro.blog is an IndieAuth provider. To learn more about IndieAuth, visit [IndieAuth.net](https://indieauth.net/) or the Micro.blog [help page on authentication](/2018/api-authentication/).
