@@ -12,7 +12,7 @@ That’s the most important thing to understand about Micro.blog. It is a bit li
 
 ### Micro.blog is serious about preventing abuse and harassment.
 
-The next most important thing to understand about Micro.blog is that the platform was designed, from the beginning, to prevent abuse and harassment. Your microblog is your own, where you are free to write about whatever you want, but we protect the timeline, where you can @-reply others, through a variety of tools and curation. We have community guidelines that are enforced.
+The next most important thing to understand about Micro.blog is that the platform was designed, from the beginning, to prevent abuse and harassment. Your microblog is your own, where you are free to write about whatever you want, but we protect the timeline, where you can @-reply others, through a variety of tools and curation. We have [community guidelines](/2017/community-guidelines/) that are enforced.
 
 ### You can cross-post from Micro.blog to Twitter. 
 
