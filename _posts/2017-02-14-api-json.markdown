@@ -42,7 +42,7 @@ The JSON API is based on [JSON Feed](https://jsonfeed.org/), the same format as 
 The following endpoints are supported:
 
 * `POST /account/signin` — Pass `email`, `app_name`, and `redirect_url` parameters to let the user sign in via a confirmation email. Email help@micro.blog so we can enable this for your app. The user can also generate app tokens under Account → Edit Apps. Web apps should use IndieAuth for sign-in.
-* `POST /account/verify` — Accepts a temporary email sign-in `token` and returns an auth token and other details. See [this help page about authentication](/2018/api-authentication/).
+* `POST /account/verify` — Accepts a temporary email sign-in `token` or an app token and returns an auth token and other details. See [this help page about authentication](/2018/api-authentication/).
 * `GET /posts/all` — JSON timeline for the signed-in user.
 * `GET /posts/mentions` — JSON mentions for the signed-in user.
 * `GET /posts/favorites` — JSON favorites for the signed-in user.
