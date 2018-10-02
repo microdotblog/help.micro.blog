@@ -4,18 +4,19 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-_Last updated: August 24, 2018._
+_Last updated: October 2, 2018._
 
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
 * More hosted microblog themes.
-* Add "Show More" button to the web version of Micro.blog.
 * Prompting to automatically renew Facebook authentication, which expires after 60 days.
 * Multiple account support without signing out on iOS.
 * Improve accessibility of iOS app and web site.
 
 We've recently finished these changes:
 
+* Added a Markdown preview button when writing a new post in Micro.blog on the web.
+* Added "Show More" button to the timeline and mentions on the web.
 * Added user muting under Account → Edit Muted Users, and mute and block commands in the macOS app.
 * Added reading view for articles saved via Indiepaper.
 * Fixed typing and pasting issues in the new post field on Android.
