@@ -10,16 +10,15 @@ Wavelength is our iPhone app for recording, editing, and publishing a short-form
 
 The main screen in Wavelength shows your podcast episodes. Tap the record button to start a new episode, or tap an existing episode from the list to edit and publish it.
 
-<img src="/assets/images/wavelength/appstore_1.png" width="300" height="534" alt="Screenshot of episodes list" />
+<img src="/assets/images/wavelength/appstore_1.png" width="300" height="534" alt="Screenshot of episodes list" style="width: 300px;" />
 
 When you open an episode, Wavelength shows one or more segments that make up the episode. You can tap to open a segment, or tap and hold to drag a segment around. By splitting your recordings into multiple segments, you can remove segments or re-order them to form the final podcast episode.
 
-<img src="/assets/images/wavelength/appstore_2.png" width="300" height="534" alt="Screenshot of segments" />
-<img src="/assets/images/wavelength/appstore_3.png" width="300" height="534" alt="Screenshot of adding audio" />
+<img src="/assets/images/wavelength/appstore_2.png" width="300" height="534" alt="Screenshot of segments" style="width: 300px;" />
 
 To split an open segment, slide the audio waveform to the left or right to reposition the segment. When you tap the split button, the current segment will be split into 2 segments and you'll be taken back to the segments list, where you can remove one of the segments if you'd like to cut that portion out of your episode.
 
-<img src="/assets/images/wavelength/appstore_4.png" width="300" height="534" alt="Screenshot of splitting a segment" />
+<img src="/assets/images/wavelength/appstore_4.png" width="300" height="534" alt="Screenshot of splitting a segment" style="width: 300px;" />
 
 When you publish an episode, Micro.blog will automatically create a podcast feed using your title and the description for the episode. If you have an Auphonic.com account, Micro.blog can send the audio to Auphonic first, wait for it to be processed, then download the final MP3 before uploading it to Micro.blog.
 
