@@ -16,7 +16,7 @@ When you open an episode, Wavelength shows one or more segments that make up the
 
 <img src="/assets/images/wavelength/appstore_2.png" width="300" height="534" alt="Screenshot of segments" style="width: 300px;" />
 
-To split an open segment, slide the audio waveform to the left or right to reposition the segment. When you tap the split button, the current segment will be split into 2 segments and you'll be taken back to the segments list, where you can remove one of the segments if you'd like to cut that portion out of your episode.
+To split an open segment, slide the audio waveform to the left or right to reposition the segment. When you tap the scissors button, the current segment will be split into 2 segments and you'll be taken back to the segments list, where you can remove one of the segments if you'd like to cut that portion out of your episode.
 
 <img src="/assets/images/wavelength/appstore_4.png" width="300" height="534" alt="Screenshot of splitting a segment" style="width: 300px;" />
 
