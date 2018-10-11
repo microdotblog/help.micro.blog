@@ -34,3 +34,5 @@ The following topics work a little differently. They are either curated manually
 | **Photos**              | 📷 | [micro.blog/discover/photos](https://micro.blog/discover/photos) |
 | **Podcasts**            | 🎙️ | [micro.blog/discover/podcasts](https://micro.blog/discover/podcasts) |
 | **Micro Monday**        | "Micro Monday"    | [micro.blog/discover/micromonday](https://micro.blog/discover/micromonday) |
+| **Inktober**        | "Inktober"    | [micro.blog/discover/inktober](https://micro.blog/discover/inktober) |
+| **NaNoWriMo**        | "NaNoWriMo"    | [micro.blog/discover/nanowrimo](https://micro.blog/discover/nanowrimo) |
