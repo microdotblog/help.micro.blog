@@ -54,7 +54,7 @@ The following endpoints are supported:
 * `GET /posts/check?since_id=[id]` — Check whether there are new posts in the timeline. The response also includes a suggestion for the number of seconds to wait before polling again.
 * `POST /posts/favorites` — Favorite a post. Pass an `id`.
 * `DELETE /posts/favorites/[id]` — Unfavorite a post. Pass an `id`.
-* `POST /posts/reply` — Post a reply to an `id` with `text` param.
+* `POST /posts/reply` — Post a reply to an `id` with `content` param.
 * `DELETE /posts/[id]` — Delete one of your posts, replies, or favorites for the given `id`.
 * `POST /users/follow` — Follow user with `username` param.
 * `POST /users/unfollow` — Unfollow `username`.
@@ -63,11 +63,11 @@ The following endpoints are supported:
 * `GET /users/discover/[username]` — List of users `username` is following that signed-in user isn't. The count for this is in `discover_count` from `/posts/[username]`.
 * `POST /micropub` — Posting for a hosted microblog uses the Micropub API. [See the documentation](http://help.micro.blog/2017/api-posting/) for more information about posting.
 
-You should pass an authorization token as an HTTP header. This token can be retrieved via `/account/signin` or by the user under Account → Edit Apps. This is what sending the HTTP token looks like:
+You should pass an authorization token as an HTTP header. This token can be retrieved via [one of the authentication options](/2018/api-authentication/). This is what sending the HTTP token looks like:
 
 ```
 GET /posts/all
-Authorization: Token 123456789
+Authorization: Bearer 123456789
 ```
 
 Note: IDs are 64-bit and unique across all posts, mentions, and favorites. Pass `count`, `since_id`, and `before_id` params for paging.

@@ -8,7 +8,7 @@ Are you building an app that works with Micro.blog? Great! This overview describ
 
 **App tokens**
 
-Micro.blog doesn't have normal account passwords, but it does have app tokens, which are like app-specific passwords. You can generate a new token to use in an app, and that app will have full access to your Micro.blog account.
+Micro.blog doesn't have normal account passwords, but it does have app tokens, which are like app-specific passwords. You can generate a new token under Account → Edit Apps to use in an app, and that app will have full access to your Micro.blog account.
 
 Using app tokens is a good way to get started while developing an app. Pass the app token with each request in the `Authorization` header, as documented in [Micropub](/2017/api-posting/) or the [JSON API](/2017/api-json/). If you let the user copy-and-paste their own app token into your app, make sure you save it securely.
 
