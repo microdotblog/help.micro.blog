@@ -4,7 +4,7 @@ date:   2017-05-02 12:30:00
 description: Some of the features and bugs we're working on.
 ---
 
-_Last updated: October 2, 2018._
+_Last updated: November 19, 2018._
 
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
@@ -15,6 +15,7 @@ Now that Micro.blog is available to anyone, we're working on many improvements. 
 
 We've recently finished these changes:
 
+* Added support for ActivityPub with replies to and from Mastodon and your blog. Get your own Mastodon-compatible username using your own domain name.
 * Added a Markdown preview button when writing a new post in Micro.blog on the web.
 * Added "Show More" button to the timeline and mentions on the web.
 * Added user muting under Account → Edit Muted Users, and mute and block commands in the macOS app.
