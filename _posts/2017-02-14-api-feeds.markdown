@@ -14,6 +14,7 @@ RSS and JSON feeds are available for hosted blogs and to retrieve the timeline f
 **JSON versions** in [JSON Feed](https://jsonfeed.org/) format are available at these URLs:
 
 * `https://micro.blog/feeds/username.json` — Friends' posts for what the specified user sees in their timeline.
+* `https://micro.blog/feeds/photos.json` — Featured photos across Micro.blog.
 * `https://username.micro.blog/feed.json` — Posts for the published microblog.
 * `https://micro.blog/posts/discover` — Posts for the Discover section.
 * `https://micro.blog/posts/discover/books` — Posts for a specific emoji like "books". [See the emoji help page](http://help.micro.blog/2018/tagmoji/) for details.
