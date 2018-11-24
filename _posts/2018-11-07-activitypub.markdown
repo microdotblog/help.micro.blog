@@ -8,15 +8,15 @@ If you have your own domain name hosted on Micro.blog, you can enable the Activi
 
 To enable ActivityPub support, click Account from Micro.blog on the web and scroll down to the ActivityPub section. You'll also need a custom domain name pointed to Micro.blog with SSL enabled.
 
-Your Mastodon-compatible username on Micro.blog is independent of any actual Mastodon instance. You can't use it to sign in to Mastodon or use Mastodon apps. Instead, you can search for Mastodon users inside Micro.blog and reply to posts, and Mastodon users can follow your Micro.blog account and reply to posts as well.
+Your Mastodon-compatible username on Micro.blog is independent of any actual Mastodon instance. You can't use it to sign in to Mastodon or use Mastodon apps. Instead, you can search for Mastodon users inside Micro.blog and reply to posts, and Mastodon users can follow your Micro.blog account and reply to posts as well. Your posts on Micro.blog can show up in Mastodon's federated timeline.
 
 To follow a Mastodon user on Micro.blog, click Discover on the web and look for the search button:
 
-<img src="/assets/images/discover_search.png" width="600" height="59" alt="Search box" />
+<img src="/assets/images/discover_search.png" width="500" height="50" alt="Search box" />
 
 Then enter a full Mastodon username in the search box:
 
-<img src="/assets/images/discover_mastodon.png" width="600" height="88" alt="Mastodon username" />
+<img src="/assets/images/discover_mastodon.png" width="500" height="74" alt="Mastodon username" />
 
 Some answers to common questions about ActivityPub support in Micro.blog:
 
