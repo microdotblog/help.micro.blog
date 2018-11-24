@@ -15,7 +15,7 @@ Once enabled, any new posts (after you enable cross-posting) will be sent to Twi
 * Short posts without a title, and less than 280 characters, will be sent to Twitter unmodified.
 * Longer posts without a title, but longer than 280 characters, will be truncated with a link back to your microblog.
 * Posts with a title, regardless of length, will be sent to Twitter using the title and a link back to your microblog to read the full post.
-* The first photo embedded in a post is automatically downloaded and attached to your tweet. Photos should be larger than 200x200, to avoid accidentally cross-posting small buttons and tracking images that some blog systems include.
+* Up to 4 photos embedded in a post are automatically downloaded and attached to your tweet. Photos should be larger than 200x200, to avoid accidentally cross-posting small buttons and tracking images that some blog systems include.
 * The first link in a post will be appended as a URL to the end of the tweet.
 
 Similar rules apply for Facebook, Medium, LinkedIn, and Mastodon, but with different length restrictions since the 280-character limit is specific to Twitter.
