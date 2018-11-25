@@ -1,10 +1,10 @@
 ---
 title:  "Sharing photos from iOS"
 date:   2018-11-19 12:00:00
-description: Posting Photos from iOS
+description: Posting photos from iOS
 ---
 
-There are several ways to share photos with micro.blog users from iOS devices. Here is a summary of the main methods from our apps along with some of the different capabilities each provides.
+There are several ways to share photos with Micro.blog users from iOS devices. Here is a summary of the main methods from our apps along with some of the different capabilities each provides.
 
 **Micro.blog for iOS:** This is probably the first app you encountered for posting to the timeline. In addition to enabling both short- and long-form posts, this app can be used to post one or more photos from the iOS Photos app to your timeline. Simply start a new post and then tap the camera icon (bottom left) to add the photo. If you want to include additional photos, repeat the process of selecting the camera and picking a photo.
 
