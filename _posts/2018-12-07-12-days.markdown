@@ -1,0 +1,12 @@
+---
+title:  "12 days of microblogging"
+date:   2018-12-07 12:30:00
+description: Blog post series on ways to use Micro.blog.
+---
+
+We started a blog post series in December 2018 to mark 1 year since the public launch of Micro.blog, highlighting how people are using their microblogs. Here's a list of the posts so far:
+
+* Day 1: [Microcasting](https://manton.org/2018/12/03/microblog-milestone-first.html)
+* Day 2: [Photos](https://manton.org/2018/12/04/days-of-microblogging.html)
+* Day 3: [Social media home base](https://manton.org/2018/12/05/174334.html)
+* Day 4: [Custom design](https://manton.org/2018/12/06/161911.html)
