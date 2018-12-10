@@ -12,3 +12,4 @@ We started a blog post series in December 2018 to mark 1 year since the public l
 * Day 4: [Custom design](https://manton.org/2018/12/06/161911.html)
 * Day 5: [Artwork showcase](https://manton.org/2018/12/07/195857.html)
 * Day 6: [Travel blogs](https://www.manton.org/2018/12/08/234348.html)
+* Day 7: [Linkblogging](https://manton.org/2018/12/09/014453.html)
