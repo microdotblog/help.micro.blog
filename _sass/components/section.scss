@@ -1,0 +1,10 @@
+.section__title {
+  @include heading;
+  margin-bottom: $space-small;
+}
+
+.section__items {
+  display: grid;
+  grid-gap: $space-medium $space-large;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}

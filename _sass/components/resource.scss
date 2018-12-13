@@ -1,0 +1,8 @@
+.resource__title {
+  @include label;
+  margin-bottom: $space-xsmall;
+}
+
+.resource__description {
+  @include caption;
+}

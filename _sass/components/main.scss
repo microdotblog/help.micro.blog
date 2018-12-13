@@ -1,0 +1,10 @@
+.main {
+  @include container;
+  flex: 1;
+  padding-top: $space-medium;
+  padding-bottom: $space-large;
+
+  a {
+    @include text-decoration;
+  }
+}

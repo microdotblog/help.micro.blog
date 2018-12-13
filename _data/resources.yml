@@ -1,0 +1,29 @@
+- id: slack
+  title: "Slack"
+  url: https://micro.blog/slack
+  description: Join our indie microblogging community to share tips and ask questions.
+
+- id: github
+  title: "GitHub"
+  url: https://github.com/microdotblog/issues/issues
+  description: If you've found a bug, you can submit an issue on GitHub.
+
+- id: microblog
+  title: "@help"
+  url: https://micro.blog/help
+  description: Follow @help on Micro.blog for service updates and product announcements.
+
+- id: manton
+  title: "Manton.org"
+  url: https://manton.org
+  description: The blog of Micro.blog founder, Manton Reece.
+
+- id: wiki
+  title: "Micro.wiki"
+  url: https://m.b.wiki.eli.li
+  description: A community-maintained resource.
+
+- id: til
+  title: "Today I Learned"
+  url: https://til.micro.blog
+  description: A guide to the latest features in Micro.blog by Simon Woods.

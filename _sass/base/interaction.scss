@@ -1,0 +1,13 @@
+/*
+ * User interaction
+ * ================
+ * https://w3c.github.io/html/editing.html
+ */
+
+::placeholder {
+  color: $color-neutral-mid;
+}
+
+[hidden] {
+  display: none !important;
+}

@@ -1,0 +1,38 @@
+- id: about
+  title: Understanding Micro.blog
+  description: Why Micro.blog exists and how it&nbsp;is&nbsp;different.
+
+- id: getting-started
+  title: Getting started
+  description: First steps with Micro.blog and interacting with other&nbsp;users.
+
+- id: apps
+  title: Apps
+  description: Posting to Micro.blog from other apps and&nbsp;services.
+
+- id: hosted
+  title: Your website on Micro.blog
+  description: Managing and customising your Micro.blog&nbsp;website.
+
+- id: self-hosted
+  title: Connecting external sites to Micro.blog
+  description: Micro.blog works great with existing&nbsp;blogs.
+
+- id: cross-posting
+  title: Cross-posting to other social networks
+  description: Integrate with other social networks while still owning your&nbsp;content.
+
+- id: photoblogging
+  title: Photoblogging
+  description: Share your photos with other Micro.blog&nbsp;users.
+
+- id: podcasting
+  title: Podcasting
+  description: Create and publish your own short-form&nbsp;podcast.
+
+- id: developers
+  title: Developers
+  description: Build and integrate services with&nbsp;Micro.blog
+
+- id: policies
+  title: Policies

@@ -1,0 +1,8 @@
+<section class="resource">
+  <h3 class="resource__title">
+    <a href="{{ resource.url }}">{{ resource.title | smartify }}</a>
+  </h3>
+  {% if resource.description %}
+  <p class="resource__description">{{ resource.description | smartify }}</p>
+  {% endif %}
+</section>
