@@ -2,8 +2,8 @@
 title: "Community guidelines"
 date: 2017-12-19
 description: Help us encourage a safe community.
-order: 2
-categories: policies
+order: 4
+categories: about
 ---
 At Micro.blog, we believe there needs to be a line between the social network and the content at your own site. Your web site is your own, where you have the freedom to write about whatever you want, but a service like Micro.blog has a responsibility to build a safe community for its users.
 
