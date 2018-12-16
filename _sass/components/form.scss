@@ -86,26 +86,22 @@
   right: 0;
   left: 0;
   z-index: 99;
-}
 
-.form__option {
-  &:not(:last-child) {
-    border-bottom: $rule-thin;
-  }
-
-  &:hover {
-    background-color: $color-neutral-lightest;
-  }
-
-  &[aria-selected="true"] {
+  [aria-selected="true"] {
     color: white;
     background-color: $color-blue-dark;
   }
+}
 
-  a {
-    color: inherit;
-    display: block;
-    padding: $space-small;
+.form__option {
+  border-bottom: $rule-thin;
+  color: inherit;
+  display: block;
+  padding: $space-small;
+
+  &:focus,
+  &:hover {
+    background-color: $color-neutral-lightest;
   }
 }
 
@@ -118,4 +114,9 @@
   @include caption;
   color: inherit;
   opacity: 0.8;
+}
+
+/* Status */
+.form__status {
+  @include visually-hidden;
 }

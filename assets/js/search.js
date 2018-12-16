@@ -1,6 +1,5 @@
 function search() {
   var searchForm = document.getElementById('search');
-  var searchInput = document.getElementById('search-input');
   var searchSubmit = document.getElementById('search-submit');
 
   var endpoint = searchForm.dataset.searchIndex;
@@ -17,10 +16,11 @@ function search() {
     var resultsArray = findResults(input, pages);
 
     var result = resultsArray.map(function (item) {
+      var description = item.description || 'No description provided'
       var html = `
-        <a href="${item.url}">
+        <a class="form__option" href="${item.url}" aria-label="${item.title} - ${description}">
           <h3 class="form__option-title">${item.title}</h3>
-          <p class="form__option-description">${item.description}</p>
+          <p class="form__option-description">${description}</p>
         </a>
       `;
 
@@ -43,10 +43,9 @@ function search() {
     searchSubmit.parentNode.removeChild(searchSubmit);
 
     window.addEventListener('load', function () {
-      var searchCombobox = new aria.ListboxCombobox(
+      var searchCombobox = new aria.Combobox(
         document.getElementById('search-combobox'),
-        searchInput,
-        document.getElementById('search-listbox'),
+        document.getElementById('search-input'),
         displayResults
       );
     });
