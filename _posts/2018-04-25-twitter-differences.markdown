@@ -6,9 +6,9 @@ description: Comparing features between the platforms.
 
 ### On Micro.blog, you control your own content.
 
-Tweeting is one form of microblogging. But when you use Twitter, your content stays at Twitter. At Micro.blog, you can write short posts that appear in the Micro.blog timeline, as well as on your own blog that you control.
+Tweeting is one form of microblogging. But when you use Twitter, your content stays at Twitter. At Micro.blog, your posts appear in the Micro.blog timeline, as well as on your own blog that you control.
 
-That’s the most important thing to understand about Micro.blog. It is a bit like Twitter, in that you can share short thoughts, links, and photos with those who follow you, but it also offers tools and hosting similar to WordPress for short-form content.
+That’s the most important thing to understand about Micro.blog. It is a bit like Twitter, in that you can share short thoughts, links, and photos with those who follow you, but it also offers tools and hosting similar to WordPress.
 
 ### Micro.blog is serious about preventing abuse and harassment.
 
@@ -32,4 +32,4 @@ As Micro.blog evolves, we may add features like these. We consider new features 
 
 Micro.blog doesn’t have a tool for automatically following people you already follow on Twitter. We do have a Discover tab, which is a curated version of the general timeline, so you can find new people to follow. You can search for users by name and handle. You can also look at who other microbloggers are following. Once a week, we have Micro Monday (our answer to Follow Friday), where users recommend one person to follow.
 
-If you want to hear more about how Micro.blog get an idea of how it’s working, check out the Micro Monday microcast, a short weekly interview with members Micro.blog community. We've heard from many users that Micro.blog reminds them of the early days of Twitter
+If you want to hear more about how Micro.blog get an idea of how it’s working, check out the [Micro Monday microcast](https://monday.micro.blog), a short weekly interview with members Micro.blog community. We've heard from many users that Micro.blog reminds them of the early days of Twitter
