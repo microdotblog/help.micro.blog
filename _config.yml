@@ -14,7 +14,7 @@ favicon: /assets/icons/favicon.png
 theme_color: "#f80"
 
 markdown: kramdown
-permalink: /:year/:title
+permalink: /:year/:title/
 sass:
   style: compressed
 
