@@ -1,0 +1,63 @@
+// Colors
+$color-neutral-darkest: hsl(216, 8%, 24%);
+$color-neutral-dark: hsl(216, 8%, 40%);
+$color-neutral-mid: hsl(216, 8%, 64%);
+$color-neutral-light: hsl(216, 4%, 84%);
+$color-neutral-lightest: hsl(216, 2%, 97%);
+
+$color-yellow-darkest: #f80;
+$color-yellow-dark: #fb0;
+$color-yellow-mid: #fd3;
+$color-yellow-light: #ff6;
+$color-yellow-lightest: #ffc;
+
+$color-blue-darkest: #039;
+$color-blue-dark: #06c;
+
+$color-anchor-link: $color-blue-dark;
+$color-anchor-hover: $color-blue-darkest;
+$color-focus: $color-yellow-dark;
+$color-highlight: $color-yellow-lightest;
+
+// Typography
+$font-family-sans: "Avenir Next", "Avenir", sans-serif;
+$font-family-monospace: "Menlo", monospace;
+
+$font-size-title: calc(1.25rem + 2vmin);
+$font-size-lede: calc(1.25rem + 0.5vmin);
+$font-size-heading: calc(1.25rem + 0.25vmin);
+$font-size-subhead: calc(1.125rem + 0.25vmin);
+$font-size-text: calc(1rem + 0.25vmin);
+$font-size-caption: calc(0.875rem + 0.125vmin);
+
+$line-height-solid: 1;
+$line-height-tight: 1.25;
+$line-height-loose: 1.5;
+
+$line-measure: 40rem;
+
+// Spacing
+$space-xlarge: calc(2rem + 5vmin);
+$space-large: calc(1.5rem + 2.5vmin);
+$space-medium: calc(1.25rem + 1.25vmin);
+$space-small: calc(0.75rem + 0.5vmin);
+$space-xsmall: 0.25rem;
+
+$max-width: 50rem;
+
+// Breakpoints
+$breapoint-xsmall: 16rem;
+$breapoint-small: 24rem;
+$breapoint-medium: 40rem;
+$breapoint-large: 48rem;
+
+// Border
+$border-width-thin: 1px;
+$border-width-thick: 2px;
+$border-radius-xsmall: 0.125rem;
+$border-radius-small: 0.25rem;
+
+// Rules
+$rule-dotted: $border-width-thin dotted rgba($color-neutral-light, 0.5);
+$rule-thin: $border-width-thin solid rgba($color-neutral-light, 0.5);
+$rule-thick: $border-width-thick solid rgba($color-neutral-light, 0.5);

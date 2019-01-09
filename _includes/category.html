@@ -1,0 +1,16 @@
+{% assign categories = site.categories[category.id] | sort: "order" %}
+<section class="category" aria-labelledby="{{ category.id }}">
+  <header class="category__header">
+    <h3 class="category__title" id="{{ category.id }}">{{ category.title | smartify }}</h3>
+    {% if category.description %}
+    <p class="category__description">{{ category.description | smartify }}<p>
+    {% endif %}
+  </header>
+  <div class="category__main">
+    <ul class="category__items">
+    {% for post in categories %}
+      <li class="category__item"><a href="{{ post.url | relative_url }}">{{ post.title | smartify }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+.navigation__items {
+  display: flex;
+
+  a {
+    font-weight: 500;
+  }
+}
+
+.navigation__item {
+  margin-left: $space-medium;
+}

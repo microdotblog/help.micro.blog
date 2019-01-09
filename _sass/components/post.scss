@@ -1,0 +1,41 @@
+.post__header {
+  padding: $space-large 0;
+}
+
+.post__title {
+  @include title;
+}
+
+.post__description {
+  @include lede;
+  margin-top: $space-xsmall;
+}
+
+.post__footer {
+  @include caption;
+  --flow-space: #{$space-xsmall};
+  border-top: $rule-dotted;
+  margin: $space-large 0;
+  padding-top: $space-small;
+}
+
+.post__meta {
+  > div {
+    display: flex;
+    margin-bottom: $space-xsmall;
+  }
+
+  dt {
+    flex: 0;
+    font-weight: 500;
+
+    &::after {
+      content: ":";
+      margin-right: $space-xsmall;
+    }
+  }
+
+  dd {
+    flex: 1;
+  }
+}

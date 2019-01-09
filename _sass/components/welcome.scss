@@ -1,0 +1,8 @@
+.welcome {
+  padding: $space-large 0;
+}
+
+.welcome__title {
+  @include title;
+  margin-bottom: $space-small;
+}

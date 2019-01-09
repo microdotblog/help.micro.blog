@@ -1,0 +1,85 @@
+.prose {
+  @include text;
+  --anchor-decoration: underline;
+  --flow-space: 1em;
+  max-width: $line-measure;
+
+  h2 {
+    @include heading;
+    margin-bottom: $space-small;
+  }
+
+  * + h2 {
+    margin-top: $space-large;
+  }
+
+  h3 {
+    @include subhead;
+    margin-bottom: $space-small;
+  }
+
+  * + h3 {
+    margin-top: $space-medium;
+  }
+
+  hr {
+    border-top: $rule-thick;
+    margin: $space-large auto;
+    width: 33%;
+  }
+
+  li {
+    --list-display: list-item;
+    margin-left: $space-medium;
+  }
+
+  li + li {
+    margin-top: $space-xsmall;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  small {
+    font-size: 75%;
+  }
+
+  img,
+  video {
+    border: $border-width-thin solid $color-neutral-lightest;
+    border-radius: $border-radius-small;
+  }
+
+  table {
+    @include caption;
+    margin-right: calc(#{$space-xsmall} * -1);
+    margin-bottom: $space-medium;
+    margin-left: calc(#{$space-xsmall} * -1);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: $color-neutral-lightest;
+  }
+
+  td, th {
+    padding: $space-small $space-medium $space-small $space-small;
+  }
+
+  th {
+    color: $color-neutral-darkest;
+  }
+
+  .highlighter-rouge pre {
+    border-radius: $border-radius-small;
+    margin-right: calc(#{$space-xsmall} * -1);
+    margin-left: calc(#{$space-xsmall} * -1);
+    padding: $space-xsmall $space-small;
+  }
+
+  code.highlighter-rouge {
+    background-color: $color-neutral-lightest;
+    border-radius: $border-radius-xsmall;
+    padding: 0.25em;
+  }
+}

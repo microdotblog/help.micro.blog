@@ -1,0 +1,12 @@
+.banner {
+  @include container;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: $space-xsmall;
+
+  @media (min-width: $breapoint-small) {
+    flex-direction: row;
+  }
+}
