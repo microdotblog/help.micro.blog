@@ -1,0 +1,10 @@
+.footer {
+  @include caption;
+  background-color: $color-neutral-lightest;
+  padding-top: $space-small;
+  padding-bottom: $space-medium;
+}
+
+.footer__address {
+  @include container;
+}

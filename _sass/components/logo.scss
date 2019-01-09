@@ -1,0 +1,27 @@
+.logo {
+  align-items: center;
+  display: inline-flex;
+  padding: $space-small 0;
+}
+
+.logo__title {
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: $space-xsmall;
+
+  span:first-child {
+    color: $color-yellow-darkest;
+    font-weight: 600;
+  }
+
+  span:last-child {
+    color: $color-neutral-mid;
+    font-weight: 400;
+  }
+}
+
+.logo__title:hover {
+  span:last-child {
+    color: $color-neutral-dark;
+  }
+}

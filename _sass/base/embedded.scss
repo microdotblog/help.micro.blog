@@ -1,0 +1,17 @@
+/*
+ * Embedded content
+ * ================
+ * https://w3c.github.io/html/semantics-embedded-content
+ */
+
+img,
+embed {
+  display: block;
+  page-break-inside: avoid;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

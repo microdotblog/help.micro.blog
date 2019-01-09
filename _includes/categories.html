@@ -1,0 +1,6 @@
+<section class="section">
+  <h2 class="section__title">Help topics</h2>
+{% for category in site.data.categories %}
+  {% include category.html %}
+{% endfor %}
+</section>

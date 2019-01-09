@@ -1,44 +1,49 @@
-name: Micro.blog Help
+title: Micro.blog Help
 description: Documentation for Micro.blog.
-meta_description: "Documentation for Micro.blog."
+url: https://help.micro.blog
 
-aboutPage: true
+author:
+  name: Manton Reece
+  url: https://manton.org
+
+repo:
+  url: https://github.com/microdotblog/help.micro.blog
+
+icon: /assets/icons/icon.png
+favicon: /assets/icons/favicon.png
+theme_color: "#f80"
 
 markdown: kramdown
-highlighter: rouge
-
-paginate: 20
-paginate_path: "/page/:num/"
-
-baseurl: /
-domain_name: 'http://help.micro.blog'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
-
-# Details for the RSS feed generator
-url:            'http://help.micro.blog'
-author:         'Manton Reece'
-authorTwitter:  'microdotblog'
-
-permalink:       /:year/:title/
+permalink: /:year/:title
+sass:
+  style: compressed
 
 defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ""
+    type: drafts
+  values:
+    layout: post
+
+exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
+- README.md
+- thanks.md
+
+jekyll-mentions:
+  base_url: https://micro.blog
+
+plugins:
+  - jekyll-mentions
