@@ -38,6 +38,8 @@
   @media (max-width: $breapoint-medium) {
     @include visually-hidden;
   }
+
+  line-height: $line-height-loose;
 }
 
 .category__item a {
