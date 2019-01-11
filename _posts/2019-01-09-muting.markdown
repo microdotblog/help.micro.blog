@@ -2,17 +2,19 @@
 title:  "Muting and reporting users"
 date:   2019-01-09 10:00:00
 description: Hiding posts you don't want to see.
+order: 9
+categories: getting-started
 ---
 
 A key part of Micro.blog's mission is to create a harrassment-free platform where people can share their thoughts, ideas, and creative output without fear of being attacked or harrassed. We have [Community Guidelines](http://help.micro.blog/2017/community-guidelines/) that are enforced. If you have any questions or concerns about user behavior on Micro.blog, please email the [Community Manager](mailto:community@micro.blog).
 
-If you believe a user has violated the Community Guidelines, please report them. 
+If you believe a user has violated the Community Guidelines, please report them.
 
-If you don't wish to see a user's posts in your timeline, you can unfollow them. If you don't wish to see a user's post in your mentions, you can mute them. (You may still see replies to that user if your account is set to see all replies. You may also see that user in the Discover timeline.) 
+If you don't wish to see a user's posts in your timeline, you can unfollow them. If you don't wish to see a user's post in your mentions, you can mute them. (You may still see replies to that user if your account is set to see all replies. You may also see that user in the Discover timeline.)
 
 **Muting users via the web interface**
 
-1. Log into your Micro.blog account. 
+1. Log into your Micro.blog account.
 2. From the navigation, choose Account.
 3. Scroll down to the Timeline section.
 4. Click the "Edit Muted Users" button.
