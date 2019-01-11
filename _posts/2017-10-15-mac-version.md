@@ -17,6 +17,11 @@ If you're using a Micro.blog-hosted weblog, you can use File → New Post to sta
 
 ## Version history
 
+### 1.3.3 --- August 17, 2018
+
+* Added a menu when viewing a user with options for muting and reporting the user.
+* Fixed an issue remembering the media upload URL for posting photos to external servers.
+
 ### 1.3.2 --- July 12, 2018
 
 * Updated who someone is following to show users you don't follow yet.
