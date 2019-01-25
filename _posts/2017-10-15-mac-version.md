@@ -7,7 +7,7 @@ categories: apps
 ---
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
 
-[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.5.zip). Requires macOS 10.12 Sierra.
+[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.5.1.zip). Requires macOS 10.12 Sierra.
 
 <img src="/assets/images/mac/screenshot.png" width="600" height="716" alt="Screenshot of Micro.blog for macOS">
 
@@ -16,6 +16,11 @@ When you first launch the app, it will prompt to sign in via your web browser. I
 If you're using a Micro.blog-hosted weblog, you can use File → New Post to start a new blog post. If you're using WordPress or another server, first open the preferences window and enter your web site URL to set it up for posting within the app.
 
 ## Version history
+
+### 1.5.1 --- January 25, 2019
+
+* Fixed adapting to system appearance changes so that Micro.blog doesn't need to be restarted after changing to Dark Mode.
+* Fixed background color in photo window for Dark Mode.
 
 ### 1.5 --- January 21, 2019
 
