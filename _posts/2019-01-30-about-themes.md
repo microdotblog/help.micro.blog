@@ -12,6 +12,8 @@ You can also pick the Blank design and clone an existing GitHub repository when 
 
 Some special templates used by Micro.blog are stored in the Blank design and used by all themes. When picking a template to use, Micro.blog first looks in your custom theme, then one of the built-in designs, and then the Blank design. If you need to customize one of these special templates, you can copy it from [our repository on GitHub](https://github.com/microdotblog/theme-blank).
 
+There's a 6-minute screencast video showing more about how custom themes work [on YouTube](https://www.youtube.com/watch?v=MLUWnrMKVdg).
+
 ## Sharing themes
 
 If you've created a theme and want to share it with other Micro.blog users, save it in its own repository on GitHub. Users can clone your repository when starting their own custom theme. If your custom theme depends on an existing built-in design, make sure to tell potential users of the theme to select that design too.
