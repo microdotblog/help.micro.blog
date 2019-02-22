@@ -7,7 +7,7 @@ categories: self-hosted
 You can include your Micro.blog-hosted microblog posts in the sidebar of your main web site with our JavaScript include called Sidebar.js. In your main site's HTML template, add this JavaScript wherever you want to include the microblog posts:
 
 ```html
-<script type="text/javascript" src="http://micro.blog/sidebar.js?username=your_username"></script>
+<script type="text/javascript" src="https://micro.blog/sidebar.js?username=your_username"></script>
 ```
 
 If you use WordPress, add this JavaScript in a "Text" widget available from the WordPress admin dashboard. Remember to replace your_username with your Micro.blog username.
