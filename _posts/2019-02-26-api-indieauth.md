@@ -36,7 +36,7 @@ https://micro.blog/indieauth/auth?me=https://myusername.micro.blog&redirect_uri=
 
 (Make sure to URL-encode each parameter. In the example above the URLs are not encoded to make them easier to read.)
 
-The user will then confirm on Micro.blog whether it's okay to allow your application to access the user's account on Micro.blog. If they approve it, you will get a request back to your application's redirect URL with a temporary auth code in the `code` parameter.
+The user will then confirm on Micro.blog whether it's okay to allow your application to access the user's account on Micro.blog. If they approve it, you will get a request back to your application's redirect URL with a temporary auth code in the `code` parameter, as well as a `state` parameter. Make sure to verify that the state matches the original value that you generated for this session.
 
 Finally, make a `POST` request to Micro.blog to verify the temporary auth code and get a permanent access token to be used in requests to the Micro.blog API. Use the other URL retrieved in the `link` tags on the user's home page above, with 2 parameters:
 
