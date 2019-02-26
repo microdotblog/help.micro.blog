@@ -1,7 +1,7 @@
 ---
 title: "IndieAuth"
 date: 2019-02-26
-description: Signing in from the web.
+description: Signing in to Micro.blog from web apps.
 order: 5
 categories: developers
 ---
