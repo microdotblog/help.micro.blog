@@ -12,7 +12,7 @@ Start by showing a web form with a single field: the URL for the web site owned 
 
 After the user types in their URL, your app should request the HTML for their home page and look for the following tags:
 
-```
+```html
 <link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth" />
 <link rel="token_endpoint" href="https://micro.blog/indieauth/token" />
 ```
@@ -30,7 +30,7 @@ Redirect the user to that first URL, appending 6 parameters:
 
 The full URL you redirect to might look like this:
 
-```
+```http
 https://micro.blog/indieauth/auth?me=https://myusername.micro.blog&redirect_uri=https://myapp.com/callback&client_id=https://myapp.com&state=12345&scope=create&response_type=code
 ```
 
@@ -38,18 +38,18 @@ https://micro.blog/indieauth/auth?me=https://myusername.micro.blog&redirect_uri=
 
 The user will then confirm on Micro.blog whether it's okay to allow your application to access the user's account on Micro.blog. If they approve it, you will get a request back to your application's redirect URL with a temporary auth code in the `code` parameter.
 
-Finally, make a `POST` request to Micro.blog to verify the temporary auth code and get a permanent access token to be used in requests to the Micro.blog API. Use the 2nd URL retrieved in the `link` tags on the user's home page above, with 2 parameters:
+Finally, make a `POST` request to Micro.blog to verify the temporary auth code and get a permanent access token to be used in requests to the Micro.blog API. Use the other URL retrieved in the `link` tags on the user's home page above, with 2 parameters:
 
 * client_id: the URL for your app's home page, to identify your app
 * code: the temporary auth code passed to your app's redirect URL
 
 The full POST request might look like this:
 
-```
+```http
 POST /indieauth/token
 Host: micro.blog
 
 client_id=https://myapp.com&code=ABCDEF
 ```
 
-Check the JSON response for the `access_token` field. You can use this access token in the "Authorization" header as documented in [the JSON API](/2017/api-json/).
+Check the JSON response for the `access_token` field. You can use this access token in the "Authorization" header as documented in [the JSON API](/2017/api-json/) and [Micropub API](/2017/api-posting/).
