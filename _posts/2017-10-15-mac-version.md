@@ -7,7 +7,7 @@ categories: apps
 ---
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
 
-[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.6.zip). Requires macOS 10.12 Sierra.
+[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.7.zip). Requires macOS 10.12 Sierra.
 
 <img src="/assets/images/mac/screenshot.png" width="600" height="716" alt="Screenshot of Micro.blog for macOS">
 
