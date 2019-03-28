@@ -47,18 +47,14 @@ Authorization: Bearer 123456789
 h=entry&name=Hello&content=This%20post%20is%20longer.
 ```
 
+To retrieve a list of recent posts, the Micropub API supports `/micropub?q=source`. This is [documented on the IndieWeb wiki](https://indieweb.org/Micropub-extensions#Query_for_Post_List). Micro.blog also allows editing an existing post or deleting a post as described in [the Micropub spec](https://www.w3.org/TR/micropub/).
+
 Micro.blog supports Micropub on both the server and from the Micro.blog iOS app:
 
 * For posting from a third-party client to a Micro.blog-hosted microblogs, you can use IndieAuth or generate an app token under Account → "App tokens". If you use a token, set it the `Authorization: Bearer` header.
-* For posting from the Micro.blog iOS app to any Micropub server, under Settings → "When writing a new post" choose "WordPress or compatible weblog". Enter your web site domain name and Micro.blog will look for an authorization endpoint to complete the setup.
+* For posting from the Micro.blog iOS and macOS apps to any Micropub server, under Settings → "When writing a new post" choose "WordPress or compatible weblog". Enter your web site domain name and Micro.blog will look for an authorization endpoint to complete the setup.
 
-Note: Micro.blog for iOS will always default to WordPress posting if your web site supports it, so that it can set a default category and post format.
-
-On the server, Micro.blog support requires a few things to be configured for IndieAuth to work:
-
-* Set your Twitter or GitHub username under Account → "App tokens".
-* Set your web site under Account to `your-username.micro.blog`. Make sure it is verified.
-* Link to `your-username.micro.blog` on your Twitter or GitHub profiles.
+Note: Micro.blog for iOS and macOS will always default to WordPress posting if your web site supports it, so that it can set a default category and post format.
 
 For users who have multiple microblogs configured, `/micropub?q=config` will return of the list of sites. You can post to a specific microblog by passing an `mp-destination` parameter of the URL (`uid` from the configured list).
 
