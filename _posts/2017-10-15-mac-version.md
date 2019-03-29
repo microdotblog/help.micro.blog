@@ -17,11 +17,15 @@ If you're using a Micro.blog-hosted weblog, you can use File → New Post to sta
 
 ## Version history
 
+### 1.7 --- March 27, 2019
+
+* Added support for saving a post as a draft to publish later (File menu → Save Draft).
+* Added a new "Posts" section to search and edit your recent posts.
+
 ### 1.6 --- January 30, 2019
 
 * Added setting categories on new posts. Create categories in Micro.blog on the web (Posts → Categories) and then show the categories pane on macOS (View menu → Categories).
 * Fixed character counter in Dark Mode.
-
 
 ### 1.5.1 --- January 25, 2019
 
