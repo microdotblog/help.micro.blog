@@ -5,7 +5,9 @@ description: Importing photos with the Mac version of Micro.blog.
 order: 2
 categories: photoblogging
 ---
-The latest version for the Micro.blog for Mac app can open an archive of your Instagram photos and import them to your blog. Micro.blog will add individual blog posts for each Instagram photo, using the photo caption and date on Instagram for each microblog post. (No location information or other data about your photos is uploaded to Micro.blog.)
+The latest version of the Micro.blog for Mac app can open an archive of your Instagram photos and import them to your blog. Micro.blog will add individual blog posts for each Instagram photo, using the photo caption and date on Instagram for each microblog post. (No location information or other data about your photos is uploaded to Micro.blog.)
+
+[Watch this video](https://www.manton.org/uploads/2018/e306d78e4e.mov) to see an overview of Instagram import.
 
 To get this archive from Instagram, follow these steps:
 
