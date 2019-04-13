@@ -20,7 +20,7 @@ Micro.blog counts characters for the text version of your post, excluding the ex
 
 Micro.blog removes some HTML from blog posts before displaying them in the timeline. The following HTML elements are currently supported:
 
-* `a`, `span`, `b`, `i`, `img`, `strong`, `em`, `div`, `p`, `br`, `blockquote`, `ul`, `ol`, `li`, `code`, `pre`, `audio`
+* `a`, `span`, `b`, `i`, `img`, `strong`, `em`, `div`, `p`, `br`, `blockquote`, `ul`, `ol`, `li`, `code`, `pre`, `audio`, `video`, `source`
 
 And these attributes are allowed on certain elements:
 
@@ -28,6 +28,8 @@ And these attributes are allowed on certain elements:
 * **`span`**: `style`, `class`
 * **`img`**: `src`, `style`, `class`, `width`, `height`, `alt`
 * **`audio`**: `src`, `controls`
+* **`video`**: `src`, `controls`, `width`, `height`, `preload`, `poster`, `alt`, `playsinline`, `style`, `class`
+* **`source`**: `src`, `type`
 
 For `style`, only these CSS property names are allowed:
 
