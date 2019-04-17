@@ -20,5 +20,5 @@ Micro.blog does not need everything that is usually in a WXR file from WordPress
 * `pubDate`
 * `content:encoded`
 * `wp:post_type` (should always be "post")
-* `wp:status` (should always be "publish")
 * `wp:post_date` (used if `pubDate` does not include a valid date)
+* `wp:status` (should always be "publish")
