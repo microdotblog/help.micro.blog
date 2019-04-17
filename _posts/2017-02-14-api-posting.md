@@ -38,6 +38,15 @@ HTTP/1.1 202 Accepted
 Location: https://username.micro.blog/uploads/123.jpg
 ```
 
+Now that you have the URL for the uploaded photo, you can add a `photo` parameter to a new post. To set alt text for the photo, also include an `mp-photo-alt` parameter.
+
+```http
+POST /micropub
+Authorization: Bearer 123456789
+
+h=entry&content=Hello%20world.&photo=https://...&mp-photo-alt=Description%20here.
+```
+
 When creating a new post, the Micropub API also accepts a "name" parameter to give the post a title:
 
 ```http
