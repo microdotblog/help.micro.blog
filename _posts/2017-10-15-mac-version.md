@@ -7,7 +7,7 @@ categories: apps
 ---
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
 
-[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.7.zip). Requires macOS 10.12 Sierra.
+[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_1.8.1.zip). Requires macOS 10.12 Sierra.
 
 <img src="/assets/images/mac/screenshot.png" width="600" height="716" alt="Screenshot of Micro.blog for macOS">
 
@@ -16,6 +16,21 @@ When you first launch the app, it will prompt to sign in via your web browser. I
 If you're using a Micro.blog-hosted weblog, you can use File → New Post to start a new blog post. If you're using WordPress or another server, first open the preferences window and enter your web site URL to set it up for posting within the app.
 
 ## Version history
+
+### 1.8.2 --- April 23, 2019
+
+* Added window width resizing. Finally!
+* Added video thumbnail previews in Posts list.
+* Fixed setting alt text on multiple photos.
+
+### 1.8.1 --- April 16, 2019
+
+* Fixed uploading videos in some formats.
+
+### 1.8 --- April 5, 2019
+
+* Added video upload for Micro.blog-hosted blogs. Video support is designed for short videos, about 2 minutes or less, and uses the same hosting plan as podcasting.
+* Fixed scaling of uploaded photos that were too small before.
 
 ### 1.7 --- March 27, 2019
 
