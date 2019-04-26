@@ -10,11 +10,11 @@ If you write a lot of longer posts, you may want to only include the first part 
 
 To get started, create a new custom theme or edit an existing one. In Micro.blog on the web, click Posts → Design → "Edit Custom Themes". After you've created the new theme, go back to the Design screen for your blog to select the new theme, then click "Update Microblog Settings".
 
-<img src="/assets/web/truncated-themes.png" width="611" height="114" alt="Custom theme buttons" />
+<img src="/assets/images/web/truncated-themes.png" width="611" height="114" alt="Custom theme buttons" />
 
 Click "Edit Custom Themes" again to edit your custom theme. It will automatically show any templates used in your microblog's current design. Click any of the templates to create an edited copy of the template that will override the default.
 
-<img src="/assets/web/truncated-templates.png" width="694" height="155" alt="Templates list" />
+<img src="/assets/images/web/truncated-templates.png" width="694" height="155" alt="Templates list" />
 
 To change the home page, edit the template `list.html`. Find the HTML in the template that looks like this:
 
