@@ -19,20 +19,20 @@ Click "Edit Custom Themes" again to edit your custom theme. It will automaticall
 To change the home page, edit the template `list.html`. Find the HTML in the template that looks like this:
 
 ```html
-  <div class="e-content">
-    &#123&#123 .Content }}
-  </div>
+  <div class="e-content">{% raw %}
+    {{ .Content }}
+  {% endraw %}</div>
 ```
 
 We'll want to change the `{{ .Content }}` tag to `{{ .Summary }}`, as well as add a link to the full post. Change it to this and save the template:
 
 ```html
-  <div class="e-content">
-    &#123 .Summary }}
-    &#123 if .Truncated }}
-      <p><a href="&#123 .RelPermalink }}">Read More</a></p>
-    &#123 end }}
-  </div>
+  <div class="e-content">{% raw %}
+    {{ .Summary }}
+    {{ if .Truncated }}
+      <p><a href="{{ .RelPermalink }}">Read More</a></p>
+    {{ end }}
+  {% endraw %}</div>
 ```
 
 This will include the first 70 words of the post, then a link to the full post. If you'd like to control where the post is truncated, you can add a special comment in between multiple paragraphs of your blog post. Micro.blog's theme will use this to effectively cut the post in half:
