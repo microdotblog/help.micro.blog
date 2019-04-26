@@ -20,7 +20,7 @@ To change the home page, edit the template `list.html`. Find the HTML in the tem
 
 ```html
   <div class="e-content">
-    {{ .Content }}
+    &#123&#123 .Content }}
   </div>
 ```
 
@@ -28,10 +28,10 @@ We'll want to change the `{{ .Content }}` tag to `{{ .Summary }}`, as well as ad
 
 ```html
   <div class="e-content">
-    {{ .Summary }}
-    {{ if .Truncated }}
-      <p><a href="{{ .RelPermalink }}">Read More</a></p>
-    {{ end }}
+    &#123 .Summary }}
+    &#123 if .Truncated }}
+      <p><a href="&#123 .RelPermalink }}">Read More</a></p>
+    &#123 end }}
   </div>
 ```
 
