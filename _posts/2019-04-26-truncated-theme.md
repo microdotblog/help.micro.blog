@@ -24,7 +24,7 @@ To change the home page, edit the template `list.html`. Find the HTML in the tem
   {% endraw %}</div>
 ```
 
-We'll want to change the `{{ .Content }}` tag to `{{ .Summary }}`, as well as add a link to the full post. Change it to this and save the template:
+Change it to this and save the template:
 
 ```html
   <div class="e-content">{% raw %}
