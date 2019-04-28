@@ -39,3 +39,5 @@ The following configuration fields can be set:
 * `related`
 * `rssLimit`
 * `summaryLength`
+
+For a tutorial on using parameters in custom themes, see [this video on YouTube](https://www.youtube.com/watch?v=MLUWnrMKVdg).
