@@ -19,7 +19,7 @@ Here's an example of what a config file might look like:
 }
 ```
 
-These values are applied over Micro.blog's [default config file](https://github.com/microdotblog/theme-blank/blob/master/config.json). To use a parameter in a template, reference it like `{{ .Site.Params.color }}`.
+These values are applied over Micro.blog's [default config file](https://github.com/microdotblog/theme-blank/blob/master/config.json). To use a parameter in a template, reference it like `{% raw %}{{ .Site.Params.color }}{% endraw %}`.
 
 The following configuration fields can be set:
 
