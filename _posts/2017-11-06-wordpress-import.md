@@ -22,3 +22,7 @@ Micro.blog does not need everything that is usually in a WXR file from WordPress
 * `wp:post_type` (should always be "post")
 * `wp:post_date` (used if `pubDate` does not include a valid date)
 * `wp:status` (should always be "publish")
+
+It is safe to run an import multiple times if there are any issues. Micro.blog will update existing posts and not create duplicates.
+
+As Micro.blog imports your WordPress site, it records the original URL for your posts. Because Micro.blog's URLs are not usually in the same format as WordPress, Micro.blog will use this original URL to automatically set up redirects so that no links will break. The redirects will be active as soon as you switch the DNS over to use Micro.blog.
