@@ -20,6 +20,7 @@ So you've created an account on Micro.blog. Thanks! We're glad to have you. Here
 
 * You can find users in the [Discover section](https://micro.blog/discover). It's a selection of some of the latest posts on Micro.blog.
 * In the [Indie Microblogging Slack](https://microblogging.slack.com/), check out the #followme channel. If you're not on Slack yet, you can [sign up here](https://micro.blog/slack).
+* Be sure to add your own "about me" text under Account in Micro.blog on the web.
 
 **Finally**, get the iPhone app:
 
