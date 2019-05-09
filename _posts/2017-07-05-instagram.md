@@ -1,9 +1,9 @@
 ---
-title: "Cross-posting to Micro.blog from Instagram"
+title: "Copying photos to Micro.blog from Instagram"
 date: 2017-07-05
 description: Automatically posting Instagram photos.
-order: 2
-categories: cross-posting
+order: 3
+categories: photoblogging
 ---
 [The iOS app for Micro.blog](https://itunes.apple.com/us/app/micro-blog/id1253201335?ls=1&mt=8) is a great way to post photos to a hosted microblog. It includes photo cropping and filters, and you can publish short text posts as well as photos within the same app. We think the best experience for most blogs will be to post your photos directly with the Micro.blog app.
 

@@ -11,16 +11,8 @@
   description: Posting to Micro.blog from other apps and&nbsp;services.
 
 - id: hosted
-  title: Your website on Micro.blog
+  title: Hosting on Micro.blog
   description: Managing and customising your Micro.blog&nbsp;website.
-
-- id: self-hosted
-  title: Connecting external sites to Micro.blog
-  description: Micro.blog works great with existing&nbsp;blogs.
-
-- id: cross-posting
-  title: Cross-posting to other social networks
-  description: Integrate with other social networks while still owning your&nbsp;content.
 
 - id: photoblogging
   title: Photoblogging
@@ -29,6 +21,14 @@
 - id: podcasting
   title: Podcasting
   description: Create and publish your own short-form&nbsp;podcast.
+
+- id: cross-posting
+  title: Cross-posting to other social networks
+  description: Integrate with other social networks while still owning your&nbsp;content.
+
+- id: self-hosted
+  title: Connecting external sites to Micro.blog
+  description: Micro.blog works great with existing&nbsp;blogs.
 
 - id: developers
   title: Developers

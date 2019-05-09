@@ -2,7 +2,7 @@
 title: "Sharing photos from iOS"
 date: 2018-11-19
 description: Posting with the iOS app or Sunlit.
-order: 1
+order: 2
 categories: photoblogging
 ---
 There are several ways to share photos with Micro.blog users from iOS devices. Here is a summary of the main methods from our apps along with some of the different capabilities each provides.

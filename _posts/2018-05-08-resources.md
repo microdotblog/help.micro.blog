@@ -2,8 +2,8 @@
 title: "Micro.blog icons"
 date: 2018-05-08
 description: Linking to Micro.blog from your blog.
-order: 11
-categories: developers
+order: 4
+categories: self-hosted
 ---
 If you want to link to Micro.blog from your own blog, you can use our SVG file version of the Micro.blog icon. Feel free to copy the icon to your own site, or reference it from the Micro.blog help site.
 
