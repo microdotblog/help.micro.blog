@@ -4,6 +4,7 @@ date: 2019-05-09
 description: Tips for adding photos to your posts.
 order: 1
 categories: photoblogging
+---
 
 Posts on Micro.blog can contain photos. For short posts without a title, Micro.blog will show any inline photos directly in the timeline.
 
