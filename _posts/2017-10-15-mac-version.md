@@ -20,6 +20,7 @@ If you're using a Micro.blog-hosted weblog, you can use File → New Post to sta
 ### 1.9 --- June 10, 2019
 
 * Added new Open option when clicking a post to open it in your web browser. Useful for copying the link or viewing the post on the author's blog.
+* Added icons for Reply, Favorite, and Conversation.
 * Fixed error reporting when posting fails and during timeline loading.
 * Fixed photo compression to be more consistent across Micro.blog platform.
 
