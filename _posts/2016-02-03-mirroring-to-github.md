@@ -5,6 +5,9 @@ description: Also publish your site to GitHub Pages.
 order: 4
 categories: hosted
 ---
+
+_This feature is currently disabled while we consider how best to rework it so that it's faster and more flexible. There's also an archive export under Posts → Export that will create a full export of your blog, including photos and other uploads._
+
 If you want to export or mirror your hosted microblog site, you can have it automatically publish to a GitHub repository every time you make a change. Both the generated HTML and the source Markdown and Jekyll files will be exported. This is useful as a way to migrate your content out of Micro.blog, or to use GitHub Pages as the primary host for your content.
 
 To configure, you'll need to create a new repository on GitHub. For compatibility with GitHub Pages, it should be in the format `username/username.github.io` (or `organization/organization.github.io`). You'll also need to create an access token on GitHub (under "Settings" → "Developer settings" → "Personal access tokens") to grant access to Micro.blog. Make sure the "repo" scope is checked when creating the access token on GitHub.
