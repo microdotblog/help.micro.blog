@@ -13,6 +13,8 @@ To upload an MP3 on the web, under "New Post" click the audio button to select a
 
 <img src="/assets/images/web/newpost-audio-button.png" width="500" height="102" alt="Screenshot showing audio button">
 
+Unlike short microblog posts which don't need a title, podcast episodes are best with a title so that they show up in other podcast apps. Click "Posts" on the web to edit existing episodes to add a title.
+
 MP3s should be 45 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
 
 * 64 kbps: 96 minutes
