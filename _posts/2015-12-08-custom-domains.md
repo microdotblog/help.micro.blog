@@ -10,6 +10,7 @@ If you host your microblog with a paid Micro.blog plan, consider pointing a cust
 To get started, update your DNS record to point to Micro.blog. Instructions for this will vary depending on your registrar, but all registrars will support 2 standard record types: "A" and "CNAME".
 
 **A** record → "104.200.22.214"
+
 **CNAME** record ("www" or "micro") → "username.micro.blog"
 
 More details:
