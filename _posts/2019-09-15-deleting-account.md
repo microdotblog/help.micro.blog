@@ -10,4 +10,4 @@ You can [delete a Micro.blog account here](https://micro.blog/account/delete). K
 
 If you just need to cancel a subscription but want to keep using the free features in Micro.blog, or return to using Micro.blog later, click Account → View Subscriptions.
 
-We'd love to hear if you have any feedback about how we can make Micro.blog better. If you're disappointing with anything, please email help@micro.blog first so we can try to fix it.
+We'd love to hear if you have any feedback about how we can make Micro.blog better. If you're disappointed with anything, please email help@micro.blog first so we can try to fix it.
