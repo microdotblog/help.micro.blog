@@ -12,6 +12,14 @@ iOS users can use the native Micro.blog for iOS app, available as a free downloa
 
 ## Version history
 
+### 1.7.1 --- Oct 8, 2019
+
+* Updated a few more screens for Dark Mode on iOS 13.
+* Fixed updating timeline when favoriting posts in Discover.
+* Fixed alignment of popover when selecting a post.
+* Fixed disabling cross-posting from post options screen.
+* Fixed uploading videos to WordPress.
+
 ### 1.7 --- Sep 19, 2019
 
 * Added support for Dark Mode in iOS 13.
