@@ -74,7 +74,7 @@ Now that you have a blog that contains all your microblog posts, you can wire it
 
 There are general tools such as IFTTT and Zapier that can take some action based on an item in your RSS feed, but none of them really natively understand microblogs. When building Micro.blog, I wanted to bake all the correct logic for cross-posting directly into the platform.
 
-Some of the things Micro.blog handles: sending short text to Twitter as if it was a regular tweet, extracting the first link in a post and appending it to the tweet, truncating long posts with a link back to your site, downloading photos and attaching them directly to a tweet, and Facebook posting. You can enable cross-posting under Account → Edit Feeds & Cross-posting in Micro.blog.
+Some of the things Micro.blog handles: sending short text to Twitter as if it was a regular tweet, extracting the first link in a post and appending it to the tweet, truncating long posts with a link back to your site, and downloading photos and attaching them directly to a tweet.. You can enable cross-posting under Account → Edit Feeds & Cross-posting in Micro.blog.
 
 ## Posting from iOS
 

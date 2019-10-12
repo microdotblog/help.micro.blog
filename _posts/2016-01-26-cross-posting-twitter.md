@@ -5,9 +5,9 @@ description: Write on your microblog and copy to other social networks.
 order: 1
 categories: cross-posting
 ---
-Now that you have a blog that contains all your microblog posts, you can wire it up to Twitter to automatically cross-post them as tweets. You're _writing on your own site first_, but the posts still go out to your Twitter followers. You can also enable cross-posting to Facebook.
+Now that you have a blog that contains all your microblog posts, you can wire it up to Twitter to automatically cross-post them as tweets. You're _writing on your own site first_, but the posts still go out to your Twitter followers. You can also enable cross-posting to other supported services.
 
-Micro.blog comes with built-in, native cross-posting to Twitter, Facebook, Medium, LinkedIn, and Mastodon. You can access it under the "Edit Feeds & Cross-posting" button on your account.
+Micro.blog comes with built-in, native cross-posting to Twitter, Medium, LinkedIn, and Mastodon. You can access it under the "Edit Feeds & Cross-posting" button on your account.
 
 Next to the RSS feed you would like to automatically cross-post, just click the "Add Twitter" link. You'll be prompted to authorize your Twitter account, or an account on another service.
 
@@ -19,8 +19,6 @@ Once enabled, any new posts (after you enable cross-posting) will be sent to Twi
 * Up to 4 photos embedded in a post are automatically downloaded and attached to your tweet. Photos should be larger than 200×200, to avoid accidentally cross-posting small buttons and tracking images that some blog systems include.
 * The first link in a post will be appended as a URL to the end of the tweet.
 
-Similar rules apply for Facebook, Medium, LinkedIn, and Mastodon, but with different length restrictions since the 280-character limit is specific to Twitter.
+Similar rules apply for Medium, LinkedIn, and Mastodon, but with different length restrictions since the 280-character limit is specific to Twitter.
 
 You can continue to reply and favorite directly on Twitter, and also on Micro.blog. Replies posted directly on Micro.blog aren't included in your microblog RSS feed, so they won't be sent to Twitter.
-
-Follow the same steps to enable Facebook cross-posting. Facebook posts are not truncated as they are with Twitter. Because Facebook has disabled automatic posting to a Facebook profile, you will have to pick a Facebook page to send posts to.

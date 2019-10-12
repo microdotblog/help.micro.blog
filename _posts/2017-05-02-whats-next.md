@@ -9,7 +9,6 @@ categories: about
 Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
 
 * More hosted microblog themes.
-* Prompting to automatically renew Facebook authentication, which expires after 60 days.
 * Multiple account support without signing out on iOS.
 * Improve accessibility of iOS app and web site.
 
