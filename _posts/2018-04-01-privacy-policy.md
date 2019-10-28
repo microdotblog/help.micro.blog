@@ -19,7 +19,9 @@ Your time zone and IP address are sent from a web browser when visiting Micro.bl
 
 The timeline in Micro.blog is built in part from RSS or JSON feeds. When you add a feed to Micro.blog, it is considered public and may be included in subscription exports. Do not add private feeds or feed URLs that contain passwords.
 
-If you enable site mirroring to GitHub, we store an authentication token on Micro.blog that lets Micro.blog read and write to your GitHub repositories. If you enable cross-posting to Twitter or Facebook, we store authentication information that lets Micro.blog post to your accounts.
+If you enable cross-posting to Twitter, Medium, LinkedIn, Tumblr, and Mastodon, we store authentication information that lets Micro.blog post to your accounts on those services.
+
+If you register a domain name on Micro.blog, we send the domain name and the contact information you enter for that domain name to Name.com, who manages the name servers for your registration. No payment information is ever shared with Name.com.
 
 ## Micro.blog for iOS and macOS, Sunlit for iOS
 
