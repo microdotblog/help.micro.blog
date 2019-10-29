@@ -11,7 +11,7 @@ When using the JSON version of the Micropub API, Micro.blog can store location d
 ```
 POST /micropub
 Authorization: Bearer 123456789
-Content-Type: JSON
+Content-Type: application/json
 
 {
     "type": [
