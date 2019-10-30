@@ -26,6 +26,9 @@ Content-Type: application/json
         ],
         "checkin": [
             {
+                "type": [
+                    "h-card"
+                ],
                 "properties": {
                     "name": [
                         "Texas Capitol Grounds"
@@ -38,6 +41,9 @@ Content-Type: application/json
         ],
         "location": [
             {
+                "type": [
+                    "h-adr"
+                ],
                 "properties": {
                     "latitude": [
                         30.273892650534542
