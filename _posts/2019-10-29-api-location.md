@@ -8,6 +8,45 @@ categories: developers
 
 When using the JSON version of the Micropub API, Micro.blog can store location data with a blog post, including venue name, URL, latitude, and longitude.
 
+To just send coordinates, use the `location` property:
+
+```
+POST /micropub
+Authorization: Bearer 123456789
+Content-Type: application/json
+
+{
+    "type": [
+        "h-entry"
+    ],
+    "properties": {
+        "published": [
+            "2019-10-27T14:51:32-05:00"
+        ],
+        "content": [
+            "Texas Book Festival."
+        ],
+        "location": [
+            {
+                "type": [
+                    "h-adr"
+                ],
+                "properties": {
+                    "latitude": [
+                        30.273892650534542
+                    ],
+                    "longitude": [
+                        -97.74060666521329
+                    ]
+                }
+            }
+        ]
+    }
+}
+```
+
+If you also have venue information for a check-in, use the `checkin` property:
+
 ```
 POST /micropub
 Authorization: Bearer 123456789
@@ -35,16 +74,7 @@ Content-Type: application/json
                     ],
                     "url": [
                         "https://foursquare.com/v/4d8a30f199c2a1cd53508bd7"
-                    ]
-                }
-            }
-        ],
-        "location": [
-            {
-                "type": [
-                    "h-adr"
-                ],
-                "properties": {
+                    ],
                     "latitude": [
                         30.273892650534542
                     ],
