@@ -45,7 +45,7 @@ Content-Type: application/json
 }
 ```
 
-If you also have venue information for a check-in, use the `checkin` property:
+If you are making a check-in post with venue information, use the `checkin` property:
 
 ```
 POST /micropub
