@@ -12,6 +12,12 @@ iOS users can use the native Micro.blog for iOS app, available as a free downloa
 
 ## Version history
 
+### 1.7.2 --- Nov 2, 2019
+
+* Updated sharing text from other apps to not use a blockquote if there is already markup in the shared text.
+* Fixed more iOS 13 text colors for Dark Mode.
+* Fixed adding "playsinline" attribute for video posted to WordPress blogs.
+
 ### 1.7.1 --- Oct 8, 2019
 
 * Updated a few more screens for Dark Mode on iOS 13.
