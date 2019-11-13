@@ -6,7 +6,7 @@ order: 6
 categories: photoblogging
 ---
 
-If you've uploaded any photos to your blog, Micro.blog will create a page at `/photos` on your hosted blog automatically. You can rename or delete this page under Posts → Pages on the web.
+If you've uploaded photos and included them in blog posts, Micro.blog will create a page at `/photos` on your hosted blog automatically. You can rename or delete this page under Posts → Pages on the web.
 
 Micro.blog only includes JPEGs for the photos page to help filter out screenshots which are usually PNGs. If you want to change this behavior, you can customize the photos template `list.photoshtml.html` using a new theme.
 
