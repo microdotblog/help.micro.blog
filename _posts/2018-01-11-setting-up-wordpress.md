@@ -30,6 +30,12 @@ Part of indie microblogging is getting back to the simplicity of title-less post
 
 You may find that some feed readers don't gracefully handle posts without titles, often inserting "Untitled" for the title because they expect something to be there. If you see this, the best solution is to email the developer and ask for them to address it. Working around the issue with fake titles — dates, numbers, or portions of the text — will only ensure that client developers never improve their apps to handle title-less posts.
 
+## Adding your feed
+
+WordPress includes an RSS feed at `/feed/`. Add this feed to your Micro.blog account by clicking Account → Edit Feeds & Cross-posting.
+
+Micro.blog uses the feeds on your account to build the timeline of posts that will be shown to your followers. When you post to your blog, the post is added is added to your feed, which Micro.blog then reads and adds to the timeline.
+
 ## Post formats
 
 Newer versions of WordPress have the concept of post formats. Normal blog posts have a "Standard" format, but there are also these types: Aside, Image, Link, Quote, Status, and others.
