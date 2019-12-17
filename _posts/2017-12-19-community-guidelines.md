@@ -2,16 +2,17 @@
 title: "Community guidelines"
 date: 2017-12-19
 description: Help us encourage a safe community.
-order: 4
-categories: about
+order: 1
+categories: community
 ---
+
 At Micro.blog, we believe there needs to be a line between the social network and the content at your own site. Your web site is your own, where you have the freedom to write about whatever you want, but a service like Micro.blog has a responsibility to build a safe community for its users.
 
 The primary focus of the community guidelines will be replies posted to other Micro.blog users. Many great friendships and interesting conversations can start as an @-reply. We are committed to making Micro.blog a place where these interactions can happen. Unfortunately, abuse and harassment frequently come in the form of an @-reply from someone you don't follow.
 
-**To combat this type of abuse and harassment, Micro.blog has a feature called Safe Replies.** Safe Replies attempts to automatically catch potentially harmful replies to you from people you do not follow. We use this to help filter posts out of your timeline that you may not want to see.
+**To combat this type of abuse and harassment, Micro.blog can help filter replies out of your timeline.** Potentially harmful replies to you that are flagged will be separated from your regular mentions. You can also mute any user to hide their posts.
 
-**We may also curate replies to protect users when emerging problems are not automatically flagged.** Replies will be subject to the basic community guidelines below. They will also be subject to review if flagged by Safe Replies or reported to the community manager by other users.
+**We may also curate replies to protect users when emerging problems are not automatically flagged.** Replies and mentions will be subject to the basic community guidelines below. We will remove unsolicited posts that are intended to spam or harass Micro.blog users. We review all posts that are reported to the community manager by other users.
 
 **If you are being harassed on Micro.blog, or if you notice someone else being harassed, please contact the Micro.blog Community Manager at <community@micro.blog>.** The Micro.blog team will keep the names of those who report harassment confidential.
 

@@ -6,6 +6,10 @@
   title: Getting started
   description: First steps with Micro.blog and interacting with other&nbsp;users.
 
+- id: community
+  title: Community
+  description: Guidelines and discovering new people.
+
 - id: apps
   title: Apps
   description: Posting to Micro.blog from other apps and&nbsp;services.
