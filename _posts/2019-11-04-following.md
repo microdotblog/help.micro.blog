@@ -15,4 +15,6 @@ You can also follow many people who aren't on Micro.blog yet. If you know their 
 * username@mastodon.social
 * username.tumblr.com
 
+To follow Mastodon users, you'll need to enable [ActivityPub in Micro.blog](https://help.micro.blog/2018/activitypub/). That will also let Mastodon users follow your microblog.
+
 Micro.blog is different than other social networks because we want to embrace the full web, so Micro.blog works great with many blogs and IndieWeb-compatible sites.
