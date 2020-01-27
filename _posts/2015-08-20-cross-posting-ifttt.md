@@ -7,9 +7,9 @@ categories: cross-posting
 ---
 Now that you have a blog that contains all your microblog posts, you can wire it up to Twitter to automatically cross-post them as tweets. You're _writing on your own site first_, but the posts still go out to your Twitter followers.
 
-Micro.blog comes with built-in cross-posting to Twitter. You can access it under the "Edit Feeds & Cross-posting" button on your account. [Learn more here][1].
+Micro.blog comes with built-in cross-posting to Twitter, Tumblr, Mastodon, Medium, and LinkedIn. You can access it under the "Edit Feeds & Cross-posting" button on your account. [Learn more here][1].
 
-Another option for cross-posting is a service like IFTTT. This is a good choice if you need to post to Facebook and other services besides just Twitter.
+Another option for cross-posting is a service like IFTTT. This is a good choice if you need to post to other services that Micro.blog doesn't support.
 
 [IFTTT][2] — short for "if this, then that" — is a great solution for connecting different web services together. With just a few clicks, you can configure IFTTT to take the microblog posts in your RSS feed and automatically send the post content to Twitter.
 
