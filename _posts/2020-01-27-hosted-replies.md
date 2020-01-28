@@ -14,3 +14,5 @@ We will be updating more of the built-in designs to support replies. If you'd li
 * `layouts/reply/single.html`: This is for the reply detail page. It's a good place to include extra information, such as who the reply is to or what their post URL is.
 
 You can see these templates in the Marfa theme here: [replies.html](https://github.com/microdotblog/theme-marfa/blob/master/layouts/section/replies.html) and [single.html](https://github.com/microdotblog/theme-marfa/blob/master/layouts/reply/single.html).
+
+For a preview of what they look like on the web, see [the recent replies](https://www.manton.org/replies/) on Manton's blog or a [single reply](https://www.manton.org/replies/2020/01/23/7935570.html).
