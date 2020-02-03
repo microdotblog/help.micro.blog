@@ -16,4 +16,4 @@ There is an automated [Micro Monday feed](https://micro.blog/discover/micromonda
 
 Inspired by the recommendations, we launched the [Micro Monday podcast](https://micro.blog/monday). Each episode features a member of the Micro.blog community. Another popular community feature, the podcast gives a voice to the people behind the blogs.
 
-There is also a Micro Monday newsletter to complement the podcast and provide updates and selections of some of the posts that caught our attention. This newsletter is emailed to Micro.blog customers, and can also be followed at [@monday]((https://micro.blog/monday)).
+There is also a Micro Monday newsletter to complement the podcast and provide updates and selections of some of the posts that caught our attention. This newsletter is emailed to Micro.blog customers, and can also be followed at [@monday](https://micro.blog/monday).
