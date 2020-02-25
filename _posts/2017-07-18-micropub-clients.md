@@ -19,7 +19,7 @@ There are also some apps specifically for Micro.blog:
 
 * [Icro](https://itunes.apple.com/us/app/icro/id1375296597?ls=1&mt=8) — iOS app for Micro.blog with timeline, posting, and more.
 * [Dialog](https://dialogapp.net/) — Android app for Micro.blog!
-* [Gluon](https://vincentritter.com/apps) — Android and iOS app in development.
+* [Gluon](https://gluon.app/) — Cross-platform app for iOS and Android.
 * [TodayPoster](https://github.com/bryanluby/TodayPoster) — macOS Today Widget for posting.
 * [MicroBlog Desktop](http://matthewroach.me/micro-blog-desktop/) — macOS app built with Electron.
 
