@@ -12,11 +12,13 @@ Like a lot of Micro.blog features, it works either as a simple feature you can e
 
 <img src="/assets/images/web/conversation-checkbox.png" alt="Conversation checkbox" border="0" width="500" height="119" style="max-width: 500px;" />
 
-Behind the scenes, this checkbox is adding a new Hugo parameter `.Params.include_conversation` that can be used in a custom theme. All the built-in Micro.blog designs have been updated to check for this parameter and then add the following line of JavaScript:
+Behind the scenes, this checkbox is adding a new Hugo parameter `.Site.Params.include_conversation` that can be used in a custom theme. All the built-in Micro.blog designs have been updated to check for this parameter and then add the following line of JavaScript:
 
 ```html
 {% raw %}<script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}></script>{% endraw %}
 ```
+
+You can see this in the `single.html` template [for the Marfa theme](https://github.com/microdotblog/theme-marfa/blob/master/layouts/post/single.html).
 
 This JavaScript include gathers the replies to the current blog post and adds them to your web page. The HTML elements all have class names so you can style the replies to match your site.
 
