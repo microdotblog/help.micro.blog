@@ -15,7 +15,7 @@ Like a lot of Micro.blog features, it works either as a simple feature you can e
 Behind the scenes, this checkbox is adding a new Hugo parameter `.Params.include_conversation` that can be used in a custom theme. All the built-in Micro.blog designs have been updated to check for this parameter and then add the following line of JavaScript:
 
 ```html
-<script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}></script>
+{% raw %}<script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}></script>{% endraw %}
 ```
 
 This JavaScript include gathers the replies to the current blog post and adds them to your web page. The HTML elements all have class names so you can style the replies to match your site.
