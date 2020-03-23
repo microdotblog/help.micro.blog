@@ -56,6 +56,15 @@ Authorization: Bearer 123456789
 h=entry&name=Hello&content=This%20post%20is%20longer.
 ```
 
+To create a draft post, add the parameter "post-status" with the value "draft". Micro.blog will return the final published URL for the post, even though it doesn't exist yet, and in the JSON body of the response it will include a preview URL. You can direct users to this URL to preview the post on the web, where they can choose to publish it.
+
+```json
+{
+  "url": "https://username.micro.blog/hello.html",
+  "preview": "https://micro.blog/account/posts/123/preview/456"
+}
+```
+
 To retrieve a list of recent posts, the Micropub API supports `/micropub?q=source`. This is [documented on the IndieWeb wiki](https://indieweb.org/Micropub-extensions#Query_for_Post_List). Micro.blog also allows editing an existing post or deleting a post as described in [the Micropub spec](https://www.w3.org/TR/micropub/).
 
 Micro.blog supports Micropub on both the server and from the Micro.blog iOS app:
