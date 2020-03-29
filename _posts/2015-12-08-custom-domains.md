@@ -19,6 +19,6 @@ More details:
 * If you want to use a root domain such as `yourdomain.com`, create an "A" record wherever your domain is registered and use the IP address value: "104.200.22.214".
 * If you want both the root domain _and_ www.yourdomain.com to work, you'll need both an "A" record for the root domain and a "CNAME" record for the "www" version. Also, enter "www.yourdomain.com" in the settings in Micro.blog. (By including "www", Micro.blog will know to also enable the root domain version.)
 
-After you've updated your DNS records, click on "Account" on Micro.blog, then scroll down to "Paid microblogs" and click "Edit Domains & Design". Next to the hostname you want to map a custom domain to, click the "Design" button. Then fill in the hostname (e.g. microblog.yourdomain.com) that you'd like to use for your site.
+After you've updated your DNS records, click on Posts → Design in Micro.blog on the web, then scroll down to the custom domain name field. Fill in the hostname (e.g. microblog.yourdomain.com) that you'd like to use for your site.
 
-HTTPS can also be enabled for any custom domain. Please email <help@micro.blog> with your custom domain and we will enable HTTPS for you.
+HTTPS can also be enabled for any custom domain. We set this up for you, but it may take up to a day for it to be ready. Please email <help@micro.blog> with your custom domain if HTTPS still hasn't been enabled.
