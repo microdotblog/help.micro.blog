@@ -1,8 +1,8 @@
 ---
 title: "Using categories"
-date: 2020-02-14
+date: 2020-03-30
 description: Assigning categories to your blog posts.
-order: 14
+order: 15
 categories: hosted
 ---
 
