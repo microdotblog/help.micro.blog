@@ -76,24 +76,4 @@ Note: Micro.blog for iOS and macOS will always default to WordPress posting if y
 
 For users who have multiple microblogs configured, `/micropub?q=config` will return of the list of sites. You can post to a specific microblog by passing an `mp-destination` parameter of the URL (`uid` from the configured list).
 
-**The XML-RPC support** (MetaWeblog API) allows you to post to a Micro.blog-hosted microblog and from the iOS app to WordPress, MovableType, and other compatible blogging platforms:
-
-* For posting from a third-party client like MarsEdit on your Mac to Micro.blog-hosted microblogs, generate an app token under Account → "App tokens". When prompted for a username in your third-party client, enter your Micro.blog username and the app token for the password.
-* For posting from the Micro.blog iOS app to WordPress and compatible weblogs, Micro.blog will look for your XML-RPC endpoint and prompt for your blog's username and password.
-
-On the server, Micro.blog responds to the following XML-RPC methods:
-
-* `metaWeblog.newPost`
-* `metaWeblog.editPost`
-* `metaWeblog.deletePost`
-* `metaWeblog.getPost`
-* `metaWeblog.getRecentPosts`
-* `metaWeblog.newMediaObject`
-
-From the iOS client, Micro.blog calls the following XML-RPC methods:
-
-* `blogger.getUserInfo`
-* `blogger.newPost`
-* `wp.newPost`
-* `wp.getTerms`
-* `metaWeblog.newMediaObject`
+**The XML-RPC support** allows you to post to a Micro.blog-hosted microblog and from the iOS app to WordPress, MovableType, and other compatible blogging platforms. For details see [the overview help page](/2020/xmlrpc-overview/) and [Micro.blog-specific XML-RPC API](/2020/xmlrpc-microblog/).
