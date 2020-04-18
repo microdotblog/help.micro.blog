@@ -8,10 +8,20 @@ categories: developers
 
 This page outlines the parameters and responses for Micro.blog's XML-RPC API. It is very similar to the MetaWeblog API, but updated for Micro.blog to support features such as pages and downloading all posts.
 
+The XML-RPC endpoint for Micro.blog is:
+
+`https://micro.blog/xmlrpc`
+
+To discover the XML-RPC settings, you can prompt the user to enter their blog URL: `my-username.micro.blog` or a custom domain name. Look in the HTML response for a `<link>` tag with "EditURI":
+
+`<link rel="EditURI" type="application/rsd+xml" href="https://my-username.micro.blog/rsd.xml" />`
+
+Download this RSD file, which contains not just the endpoint URL but also a `blogID` attribute that you can pass with each XML-RPC request. This tells Micro.blog which blog to post to when the user has multiple blogs.
+
 ## `microblog.newPost`
 
 * params:
-	* 0: site ID
+	* 0: blog ID
 	* 1: username
 	* 2: password
 	* 3: content struct
@@ -61,7 +71,7 @@ This page outlines the parameters and responses for Micro.blog's XML-RPC API. It
 ## `microblog.getCategories`
 
 * params:
-	* 0: site ID
+	* 0: blog ID
 	* 1: username
 	* 2: password
 * response fields in struct:
@@ -76,7 +86,7 @@ This page outlines the parameters and responses for Micro.blog's XML-RPC API. It
 
 * similar to `metaWeblog.recentPosts` but with offset parameter for paging, more consistent field names
 * params:
-	* 0: site ID
+	* 0: blog ID
 	* 1: username
 	* 2: password
 	* 3: number of posts
@@ -100,7 +110,7 @@ This page outlines the parameters and responses for Micro.blog's XML-RPC API. It
 	* is a page a "template" where the description is generated dynamically? (e.g. About, Archive, Photos, and Replies)
 	* is a page actually redirecting to another URL? (description will be just that URL)
 * params:
-	* 0: site ID
+	* 0: blog ID
 	* 1: username
 	* 2: password
 	* 3: number of pages
@@ -120,7 +130,7 @@ This page outlines the parameters and responses for Micro.blog's XML-RPC API. It
 ## `microblog.newPage`
 
 * params:
-	* 0: site ID
+	* 0: blog ID
 	* 1: username
 	* 2: password
 	* 3: content struct
