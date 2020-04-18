@@ -16,7 +16,7 @@ To discover the XML-RPC settings, you can prompt the user to enter their blog UR
 
 `<link rel="EditURI" type="application/rsd+xml" href="https://my-username.micro.blog/rsd.xml" />`
 
-Download this RSD file, which contains not just the endpoint URL but also a `blogID` attribute that you can pass with each XML-RPC request. This tells Micro.blog which blog to post to when the user has multiple blogs.
+Download this RSD file, which contains not just the endpoint URL but also a `blogID` attribute that you can pass with some XML-RPC requests. This tells Micro.blog which blog to post to when the user has multiple blogs.
 
 ## `microblog.newPost`
 
