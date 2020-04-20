@@ -6,17 +6,17 @@ order: 14
 categories: developers
 ---
 
-This page outlines the parameters and responses for Micro.blog's XML-RPC API. It is very similar to the MetaWeblog API, but updated for Micro.blog to support features such as pages and downloading all posts.
+This page documents the parameters and responses for Micro.blog's XML-RPC API. It is very similar to the MetaWeblog API, but updated for Micro.blog to support features such as pages and downloading all posts.
 
 ## Discovery
 
-The XML-RPC endpoint for Micro.blog is:
-
-`https://micro.blog/xmlrpc`
+The XML-RPC endpoint for Micro.blog is: `https://micro.blog/xmlrpc`
 
 To discover the XML-RPC settings, you can prompt the user to enter their blog URL: `my-username.micro.blog` or a custom domain name. Look in the HTML response for a `<link>` tag with "EditURI":
 
-`<link rel="EditURI" type="application/rsd+xml" href="https://my-username.micro.blog/rsd.xml" />`
+```xml
+<link rel="EditURI" type="application/rsd+xml" href="https://my-username.micro.blog/rsd.xml" />
+```
 
 Download this RSD file, which contains not just the endpoint URL but also a `blogID` attribute that you can pass with some XML-RPC requests. This tells Micro.blog which blog to post to when the user has multiple blogs.
 
@@ -61,6 +61,8 @@ Micro.blog's XML-RPC API uses method names such as `microblog.newPost` and `mico
   </params>
 </methodCall>
 ```
+
+The rest of this help page outlines the method call names and their parameters.
 
 ## `microblog.newPost`
 
