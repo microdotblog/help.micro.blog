@@ -6,7 +6,7 @@ order: 4
 categories: hosted
 ---
 
-_This feature is currently disabled while we consider how best to rework it so that it's faster and more flexible. There's also an archive export under Posts → Export that will create a full export of your blog, including photos and other uploads._
+_**This feature is currently disabled** while we consider how best to rework it so that it's faster and more flexible. There's also an archive export under Posts → Export that will create a full export of your blog, including photos and other uploads._
 
 If you want to export or mirror your hosted microblog site, you can have it automatically publish to a GitHub repository every time you make a change. Both the generated HTML and the source Markdown and Jekyll files will be exported. This is useful as a way to migrate your content out of Micro.blog, or to use GitHub Pages as the primary host for your content.
 
