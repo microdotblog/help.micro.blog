@@ -1,6 +1,7 @@
 ---
 title: "Webmention"
 date: 2017-04-23
+updated: 2018-02-26
 description: Cross-site replies.
 order: 7
 categories: developers
