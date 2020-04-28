@@ -1,6 +1,7 @@
 ---
 title: "Third-party apps"
 date: 2017-07-18
+updated: 2020-02-24
 description: Posting with Micropub API clients.
 order: 3
 categories: apps

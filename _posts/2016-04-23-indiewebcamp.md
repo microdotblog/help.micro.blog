@@ -1,6 +1,7 @@
 ---
 title: "About IndieWeb"
 date: 2017-04-23
+updated: 2019-04-25
 description: Overview of support for IndieWeb formats.
 order: 6
 categories: developers

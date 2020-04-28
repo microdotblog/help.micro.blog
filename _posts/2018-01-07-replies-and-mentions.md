@@ -1,6 +1,7 @@
 ---
 title: "Replies and @-mentions"
 date: 2018-01-07
+updated: 2018-12-13
 description: Referencing users in a post.
 order: 5
 categories: getting-started

@@ -1,6 +1,7 @@
 ---
 title: "Mirroring to GitHub"
 date: 2016-02-03
+updated: 2020-04-28
 description: Also publish your site to GitHub Pages.
 order: 4
 categories: hosted

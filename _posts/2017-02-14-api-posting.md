@@ -1,6 +1,7 @@
 ---
 title: "Posting API"
 date: 2017-02-14
+updated: 2020-04-18
 description: Micropub and XML-RPC APIs.
 order: 3
 categories: developers
