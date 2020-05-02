@@ -98,7 +98,6 @@ The rest of this help page outlines the method call names and their parameters.
 	* 2: password
 * response fields in struct:
 	* `id`
-	* `user_id`
 	* `date_created`
 	* `date_modified`
 	* `permalink`
@@ -139,7 +138,6 @@ The rest of this help page outlines the method call names and their parameters.
 	* 4: offset
 * response fields in struct:
 	* `id`
-	* `user_id`
 	* `date_created`
 	* `date_modified`
 	* `permalink`
@@ -163,7 +161,6 @@ The rest of this help page outlines the method call names and their parameters.
 	* 4: offset
 * response fields in struct:
 	* `id`
-	* `user_id`
 	* `date_created`
 	* `date_modified`
 	* `permalink`
@@ -193,7 +190,6 @@ The rest of this help page outlines the method call names and their parameters.
 	* 2: password
 * response fields in struct:
 	* `id`
-	* `user_id`
 	* `date_created`
 	* `date_modified`
 	* `permalink`
