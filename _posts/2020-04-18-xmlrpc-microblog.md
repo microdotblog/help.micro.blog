@@ -105,6 +105,9 @@ The rest of this help page outlines the method call names and their parameters.
 	* `description`
 	* `categories`
 	* `post_status`
+	* `author`
+	  * `full_name`
+	  * `username`
 
 ## `microblog.deletePost`
 
@@ -145,6 +148,9 @@ The rest of this help page outlines the method call names and their parameters.
 	* `description`
 	* `categories`
 	* `post_status`
+	* `author`
+	  * `full_name`
+	  * `username`
 
 ## `microblog.getPages`
 
@@ -169,6 +175,9 @@ The rest of this help page outlines the method call names and their parameters.
 	* `is_navigation`
 	* `is_template`
 	* `is_redirect`
+	* `author`
+	  * `full_name`
+	  * `username`
 
 ## `microblog.newPage`
 
@@ -198,6 +207,9 @@ The rest of this help page outlines the method call names and their parameters.
 	* `is_navigation`
 	* `is_template`
 	* `is_redirect`
+	* `author`
+	  * `full_name`
+	  * `username`
 
 ## `microblog.editPage`
 
