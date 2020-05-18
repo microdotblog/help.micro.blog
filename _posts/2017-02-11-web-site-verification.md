@@ -4,7 +4,10 @@ date: 2017-02-11
 description: How to verify your domain name.
 categories: self-hosted
 ---
+
 Verifying your web site tells Micro.blog that your user is the owner of the web site URL in your account profile. This helps users who are viewing your profile page, and also enables IndieAuth authentication so that you can sign in with your own domain name when posting to Micro.blog from other applications.
+
+Hosting your blog on Micro.blog? You can skip this help page. Micro.blog handles everything for you.
 
 To verify your web site, add either a `<link>` tag in the `<head>` section of your HTML, or add an HTML `<a href="">` that points to your Micro.blog account. Both of these should have the `rel="me"` attribute.
 
