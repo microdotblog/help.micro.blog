@@ -6,7 +6,7 @@ order: 4
 categories: hosted
 ---
 
-In addition to importing from WordPress, Medium, and other blogging platforms, you can upload a ZIP file containing multiple Markdown files to your Micro.blog-hosted blog. Click Posts → Import.
+In addition to importing from [WordPress](/2017/wordpress-import/), [Medium](/2019/medium-import/), and other blogging platforms, you can upload a ZIP file containing multiple Markdown files to your Micro.blog-hosted blog. Click Posts → Import.
 
 Micro.blog supports several frontmatter fields:
 
