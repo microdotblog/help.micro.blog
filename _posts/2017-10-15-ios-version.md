@@ -12,6 +12,34 @@ iOS users can use the native Micro.blog for iOS app, available as a free downloa
 
 ## Version history
 
+### 1.8.3 --- May 21, 2020
+
+* Fixed username search.
+* Fixed opening links to account-related screens in posts.
+* Fixed navigation bar glitch when dragging conversations on some iPads.
+* Updated full-screen photo viewer to not hide status bar.
+
+### 1.8.2 --- May 6, 2020
+
+* Improved sidebar width on iPad in portrait.
+
+### 1.8.1 --- Apr 24, 2020
+
+* Fixed editing longer blog posts when text was under the keyboard.
+* Fixed a couple layout and color issues.
+
+### 1.8 --- Mar 28, 2020
+
+* Added "Posts" menu for editing your recent posts. Designed for quick updates and typo fixes for Micro.blog-hosted blogs. Can also be used to publish drafts or delete posts.
+* Switched to system font and tweaked colors and layout through the app.
+* Fixed a few issues including missing push notification text.
+
+### 1.7.3 --- Mar 16
+
+* Fixed issues and improved colors in Dark Mode.
+* Fixed crashes when sharing some photos to Micro.blog from other apps.
+* Fixed blurry thumbnails when selecting or filtering a photo.
+
 ### 1.7.2 --- Nov 2, 2019
 
 * Updated sharing text from other apps to not use a blockquote if there is already markup in the shared text.
@@ -33,28 +61,28 @@ iOS users can use the native Micro.blog for iOS app, available as a free downloa
 * Added new emoji topics selection in Discover.
 * Fixed layout issues with sharing extension and minor updates to other screens.
 
-### 1.6.2
+### 1.6.2 --- Apr 16, 2019
 
 * Fixed uploading some video formats.
 
-### 1.6.1
+### 1.6.1 --- Apr 10, 2019
 
 * Improved video playback (including future inline playback support).
 * Fixed loading categories and cross-posting screen.
 
-### 1.6
+### 1.6 --- Apr 5, 2019
 
 * Added video upload for Micro.blog-hosted blogs. Video support is designed for short videos, about 2 minutes or less, and uses the same hosting plan as podcasting.
 * Updated the new post and reply buttons.
 * Fixed bug with external sites that don't support categories.
 * Fixed updating hosted blog information when account changes.
 
-### 1.5
+### 1.5 --- Feb 5, 2019
 
 * Added categories for new posts on Micro.blog-hosted blogs. Create categories in Micro.blog on the web and then tap the gear icon on iOS when composing a new post.
 * Fixed a couple potential crashes and other minor fixes.
 
-### 1.4.1
+### 1.4.1 --- Dec 21, 2018
 
 * Improved sharing from Safari to include both the URL and selected text. Use the share button in the bottom toolbar.
 * Improved text size to more closely match system defaults. The text in the timeline is slightly bigger now.
