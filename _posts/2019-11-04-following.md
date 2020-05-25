@@ -1,7 +1,7 @@
 ---
 title: "Following users"
 date: 2019-11-04
-description: How to follow users on Micro.blog and other networks.
+description: How to follow users on Micro.blog and external sites.
 order: 12
 categories: getting-started
 ---
