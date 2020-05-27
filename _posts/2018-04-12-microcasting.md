@@ -5,9 +5,10 @@ description: Publishing a microcast.
 order: 1
 categories: podcasting
 ---
+
 Micro.blog offers an optional paid plan that lets you create a short-form podcast hosted directly on Micro.blog. You can upload an MP3 for your microcast from the web, or use the companion iPhone app [Wavelength](https://itunes.apple.com/us/app/wavelength-for-micro-blog/id1365158696?ls=1&mt=8) to record, edit, and publish a new episode.
 
-Hosted microcasts use a separate RSS feed for your episodes: yourdomain.com/podcast.xml. You can add this feed to apps like Overcast or Castro, or register it with the Apple Podcast Directory. Just like a regular microblog, you can also use a custom domain for your site.
+Hosted microcasts use a separate RSS feed for your episodes: yourdomain.com/podcast.xml. You can add this feed to apps like Overcast or Castro, or register it with the Apple Podcast Directory. Just like a regular microblog, you can also use a custom domain for your site. (There is also a JSON Feed version at yourdomain.com/podcast.json.)
 
 To upload an MP3 on the web, under "New Post" click the audio button to select a file:
 
