@@ -3,7 +3,7 @@ title: "Verifying tokens"
 date: 2020-05-30
 description:
 order: 7
-categories: hosted
+categories: developers
 ---
 
 Most API calls require an auth token to identity the signed-in user. There are [a few forms of authentication](/2018/api-authentication/) to get a token. For the email sign-in authentication, primarily used for native mobile apps, you will be passed a temporary sign-in token that must be verified before it can be used in other API calls.
