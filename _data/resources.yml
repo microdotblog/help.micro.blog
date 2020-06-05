@@ -1,8 +1,3 @@
-- id: slack
-  title: "Slack"
-  url: https://micro.blog/slack
-  description: Join our indie microblogging community to share tips and ask questions.
-
 - id: github
   title: "GitHub"
   url: https://github.com/microdotblog/issues/issues
@@ -27,11 +22,6 @@
   title: "Micro.wiki"
   url: https://m.b.wiki.eli.li
   description: A community-maintained resource.
-
-- id: til
-  title: "Today I Learned"
-  url: https://til.micro.blog
-  description: A guide to the latest features in Micro.blog by Simon Woods.
 
 - id: microblog
   title: "Customizing Micro.Blog"
