@@ -1,0 +1,54 @@
+---
+title: "Plug-ins"
+date: 2020-07-07
+description: Developing plug-ins for Micro.blog.
+order: 8
+categories: developers
+---
+
+Micro.blog plug-ins extend your blog with additional features or customization for themes. [Read Manton's blog post](https://www.manton.org/2020/07/07/introducing-plugins-for.html) for an introduction.
+
+Plug-ins are like lightweight Hugo themes. They can provide all the templates needed for a custom theme, or they can provide just a couple templates, overriding any templates in a built-in design on Micro.blog. Micro.blog applies the plug-in templates after the blog's theme has been set up.
+
+A plug-in needs to have at least one file — `plugin.json` — and it can have other files as needed. The `plugin.json` file describes the plug-in and what parameters or include files it needs.
+
+If a plug-in has a `config.json` file, that file can have only the parameters a plug-in cares about. Micro.blog will first set up any default parameters, then apply the blog's theme parameters, and then apply any extra parameters in the plug-ins configured for that blog.
+
+The basic structure of `plugin.json` looks like this:
+
+```json
+{
+  "version": "1.0",
+  "title": "My plug-in",
+  "description": "1-2 sentences about what this plug-in offers.",
+  "includes": [
+    "/example.css",
+    "/example.js",
+    "example.html"
+  ],
+  "fields": [
+    {
+      "field": "params.photos_use_category",
+      "label": "Use category",
+      "placeholder": "Enter the category name to include photos from"
+    },
+    {
+      "field": "params.photos_only_microblog",
+      "label": "Only include short microblog posts (without a title)",
+      "type": "boolean"
+    }
+  ]
+}
+```
+
+Only `version`, `title`, and `description` are required. Micro.blog uses the version number to tell the user that a newer version of the plug-in is available. Version numbers usually start at "1.0" and are incremented like "1.0.1" and "1.0.2" for small bug fixes, "1.1" for new features, and "2.0" for major upgrades.
+
+The `includes` field is optional. If present, Micro.blog automatically adds `link` (CSS) or `script` (JavaScript) tags to the blog. The files references in `includes` should also be in the plug-in. You can add them as static files under the "static" folder in the plug-in.
+
+For example, if you want to include a CSS file named "hello.css" in your plug-in, it would be stored at "static/hello.css" and referenced in `includes` with the path "/hello.css".
+
+If you include an `html` file, Micro.blog will load it as a Hugo partial. You can add those files in the "layouts/partials" folder in the plug-in. These partials are included inside the `head` tag of the blog, so they are useful for adding `meta` tags or inline styles and JavaScript.
+
+The `fields` field is also optional. If present, Micro.blog will build a settings screen for the plug-in. Fields can be of type "string", "boolean", or "integer". For booleans, Micro.blog will use a checkbox. If you need to provide default values, set them in the `config` file.
+
+Fields can override some Hugo variables, or add new parameters that are accessible from the plug-in or any other theme. To add your own parameters, use "params." as the prefix for your field name.
