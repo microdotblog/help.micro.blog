@@ -1,2 +1,3 @@
 # Folders to ignore
 _site
+.DS_Store
