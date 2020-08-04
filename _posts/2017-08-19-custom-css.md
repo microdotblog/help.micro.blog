@@ -1,6 +1,7 @@
 ---
 title: "Custom CSS"
 date: 2017-08-19 09:30:00
+updated: 2020-08-04
 description: Customizing your hosted microblog with CSS.
 order: 2
 categories: hosted
@@ -34,5 +35,3 @@ It's even possible to replace some text using CSS. For example, in the Primrose 
 ```
 
 One of our newest themes is called Marfa. If you use this theme and would like to change the default colors, Micro.blog user @roelwillems has [written a guide on his microblog](http://roelwillems.com/2018/04/15/i-switched-my.html) for what CSS to use.
-
-If you have any questions about themes or CSS, you can also check in the #design channel in the [Indie Microblogging Slack](https://microblogging.slack.com/).

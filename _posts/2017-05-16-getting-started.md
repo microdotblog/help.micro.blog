@@ -1,6 +1,7 @@
 ---
 title: "First steps"
 date: 2017-05-16
+updated: 2020-08-04
 description: A checklist for getting the most from Micro.blog.
 order: 1
 categories: getting-started
@@ -19,7 +20,6 @@ So you've created an account on Micro.blog. Thanks! We're glad to have you. Here
 **Next**, follow other Micro.blog users:
 
 * You can find users in the [Discover section](https://micro.blog/discover). It's a selection of some of the latest posts on Micro.blog.
-* In the [Indie Microblogging Slack](https://microblogging.slack.com/), check out the #followme channel. If you're not on Slack yet, you can [sign up here](https://micro.blog/slack).
 * Be sure to add your own "about me" text under Account in Micro.blog on the web.
 
 **Finally**, get the iPhone app:
