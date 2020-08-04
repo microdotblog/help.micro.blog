@@ -1,16 +1,16 @@
 ---
-title: "Mirroring to GitHub"
+title: "Archiving to GitHub"
 date: 2016-02-03
-updated: 2020-04-28
-description: Also publish your site to GitHub Pages.
+updated: 2020-08-04
+description: Also copy your posts to GitHub Pages.
 order: 4
 categories: hosted
 ---
 
-_**This feature is currently disabled** while we consider how best to rework it so that it's faster and more flexible. There's also an archive export under Posts → Export that will create a full export of your blog, including photos and other uploads._
+Micro.blog can automatically copy your posts to a GitHub repository. It uses a similar structure to the Blog Archive Format: an HTML file and JSON Feed of all your blog posts, and an "uploads" folder with all of your photos. Micro.blog will update the archive on GitHub approximately once a week. (If you need an immediate backup, use the Posts → Export feature.)
 
-If you want to export or mirror your hosted microblog site, you can have it automatically publish to a GitHub repository every time you make a change. Both the generated HTML and the source Markdown and Jekyll files will be exported. This is useful as a way to migrate your content out of Micro.blog, or to use GitHub Pages as the primary host for your content.
+To enable GitHub archiving, click on Posts → Design and enter a GitHub repository. When you save your blog settings, Micro.blog will prompt you to sign in to your GitHub account.
 
-To configure, you'll need to create a new repository on GitHub. For compatibility with GitHub Pages, it should be in the format `username/username.github.io` (or `organization/organization.github.io`). You'll also need to create an access token on GitHub (under "Settings" → "Developer settings" → "Personal access tokens") to grant access to Micro.blog. Make sure the "repo" scope is checked when creating the access token on GitHub.
+The repository must be public and must be on the same GitHub account you are signed in as, not a separate GitHub organization. Micro.blog will not have access to any private repositories.
 
-You can set the GitHub repository and access token in Micro.blog under Account → "Edit Domains & Design". Remember the repository must include your username or organization name as well as the repository name.
+To disable archiving and sign out of GitHub, clear the repository name and save your blog settings again from the Posts → Design tab.
