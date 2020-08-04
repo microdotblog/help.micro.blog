@@ -15,4 +15,6 @@ The repository must be public and must be on the same GitHub account you are sig
 
 To disable archiving and sign out of GitHub, clear the repository name and save your blog settings again from the Posts → Design tab.
 
+Micro.blog does not attempt to remove files from your GitHub repository. If you delete an upload from your blog, you'll need to also delete it manually from GitHub.
+
 If you want [GitHub Pages](https://pages.github.com/) to serve your archive over the web, use a repository name in the format `your-username.github.io`.
