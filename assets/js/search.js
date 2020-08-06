@@ -6,10 +6,25 @@ function search() {
   var pages = [];
 
   function findResults(termToMatch, pages) {
-    return pages.filter(function (item) {
+    var results = [];
+
+    pages.forEach(function (item) {
       var regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.content.match(regex);
+      if (item.title.match(regex)) {
+        results.push(item);
+      }
     });
+
+    pages.forEach(function (item) {
+      var regex = new RegExp(termToMatch, 'gi');
+      if (item.content.match(regex)) {
+        if (results.indexOf(item) == -1) {
+          results.push(item);
+        }
+      }
+    });
+
+    return results;
   }
 
   function displayResults(input) {
