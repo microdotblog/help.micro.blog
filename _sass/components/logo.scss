@@ -5,18 +5,18 @@
 }
 
 .logo__title {
-  font-size: 1.25rem;
+  font-size: 22px;
   line-height: 1;
   padding: $space-xsmall;
 
   span:first-child {
     color: $color-yellow-darkest;
-    font-weight: 600;
+    font-weight: 300;
   }
 
   span:last-child {
     color: $color-neutral-mid;
-    font-weight: 400;
+    font-weight: 300;
   }
 }
 

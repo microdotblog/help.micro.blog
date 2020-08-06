@@ -26,6 +26,7 @@ html {
 }
 
 body {
+  border-top: 5px solid #424242;
   background: white url("/assets/images/background.png") repeat-x center $space-xlarge;
   background-size: 40rem;
   color: var(--color-text);
