@@ -9,7 +9,7 @@ categories: hosted
 
 Micro.blog can automatically copy your posts to a GitHub repository. It uses a similar structure to the Blog Archive Format: an HTML file and JSON Feed of all your blog posts, and an "uploads" folder with all of your photos. Micro.blog will update the archive on GitHub approximately once a week. (If you need an immediate backup, use the Posts → Export feature.)
 
-To enable GitHub archiving, click on Posts → Design and enter a GitHub repository. When you save your blog settings, Micro.blog will prompt you to sign in to your GitHub account.
+To enable GitHub archiving, click on Posts → Design and enter a GitHub repository name. Only include the repository name, not a full URL. When you save your blog settings, Micro.blog will prompt you to sign in to your GitHub account.
 
 The repository must be public and must be on the same GitHub account you are signed in as, not a separate GitHub organization. Micro.blog will not have access to any private repositories.
 
