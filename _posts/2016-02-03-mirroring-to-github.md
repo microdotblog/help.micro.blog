@@ -1,7 +1,7 @@
 ---
 title: "Archiving to GitHub"
 date: 2016-02-03
-updated: 2020-08-04
+updated: 2020-08-18
 description: Also copy your posts to GitHub Pages.
 order: 4
 categories: hosted
