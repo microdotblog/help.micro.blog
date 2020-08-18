@@ -11,7 +11,7 @@ Micro.blog can automatically copy your posts to a GitHub repository. It uses a s
 
 To enable GitHub archiving, click on Posts → Design and enter a GitHub repository name. Only include the repository name, not a full URL. When you save your blog settings, Micro.blog will prompt you to sign in to your GitHub account.
 
-The repository must be public and must be on the same GitHub account you are signed in as, not a separate GitHub organization. Micro.blog will not have access to any private repositories.
+The repository must be public and must be on the same GitHub account you are signed in as, not a separate GitHub organization. Micro.blog will not have access to any private repositories. Make sure the GitHub repository is not empty. (If it's a new repository, you can initialize the repository with a README from GitHub.)
 
 To disable archiving and sign out of GitHub, clear the repository name and save your blog settings again from the Posts → Design tab.
 
