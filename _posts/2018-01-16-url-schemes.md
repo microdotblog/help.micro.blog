@@ -1,6 +1,7 @@
 ---
 title: "iOS and Mac URL schemes"
 date: 2018-01-15
+updated: 2020-08-31
 description: Send post text to the native apps.
 order: 5
 categories: developers

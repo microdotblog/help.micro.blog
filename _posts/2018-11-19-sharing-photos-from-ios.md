@@ -1,6 +1,7 @@
 ---
 title: "Sharing photos from iOS"
 date: 2018-11-19
+updated: 2020-08-31
 description: Posting with the iOS app or Sunlit.
 order: 2
 categories: photoblogging
