@@ -15,8 +15,6 @@ The photos will be constrained to a square aspect ratio by default. Tap the smal
 
 **Sunlit:** Our [iOS app Sunlit](https://sunlit.io/) is tailor-made for sharing and viewing photos on Micro.blog. For sharing it supports two approaches. The first (bottom left in the UI, titled Timeline) is similar to posting photos to your timeline from the Micro.blog app. Tap the New Post button to start a post and then select one or more photos to include. Using this approach there are no filters and the photos will be displayed unaltered below the text.
 
-You can add photos from the iOS photo library, Flickr, or Instagram by tapping the "+" button after creating a new post. To start a new post from Flickr, Instagram, or a Swarm location, tap and hold on the New Post button.
-
-Once the photos are added to the draft post you can select them individually to crop them, as well as make photo adjustments such as color, brightness, temperature, and so forth. If you press and hold on a photo in the story draft you can re-arrange the order and the app has a field for typing in a title as well as for narrative text.
+Once the photos are added to the draft post you can select them individually to crop them. If you press and hold on a photo in the story draft you can re-arrange the order and the app has a field for typing in a title as well as for narrative text.
 
 Sunlit also has a Discover tab which is great for seeing a photos-focused timeline of what other users are sharing. One nice advantage of Sunlit for viewing photos is they are shown full screen and pinch-to-zoom is supported.
