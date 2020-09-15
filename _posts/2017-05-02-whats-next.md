@@ -1,21 +1,30 @@
 ---
 title: "What's next?"
 date: 2017-05-02
-updated: 2018-11-19
+updated: 2020-09-15
 order: 5
 description: Some of the features and bugs we're working on.
 categories: about
 ---
-Now that Micro.blog is available to anyone, we're working on many improvements. Here are some of the features and bugs we're working on:
+We're always working on improvements to Micro.blog. Here are some of the features and bugs we're working on:
 
-* More hosted microblog themes.
+* Redesigning the web interface and native apps with new navigation and icons.
+* Expanding how Favorites work, including new features.
 * Multiple account support without signing out on iOS.
-* Improve accessibility of iOS app and web site.
+* Editing pages and managing uploads on iOS and macOS.
+* More hosted microblog themes.
+* Better accessibility on the web.
 
 * * *
 
 We've recently finished these changes:
 
+* Launched Sunlit 3.0, an Instagram-like photo sharing app built on Micro.blog. It's open source.
+* Added new books search and book covers interface.
+* Added following Tumblr blogs and IndieWeb sites by domain name. Improved the username search.
+* Performance improvements to publishing new blog posts.
+* Added plug-ins system for extending your blog with new features.
+* Improved the custom theme editing interface.
 * Added support for ActivityPub with replies to and from Mastodon and your blog. Get your own Mastodon-compatible username using your own domain name.
 * Added a Markdown preview button when writing a new post in Micro.blog on the web.
 * Added "Show More" button to the timeline and mentions on the web.
