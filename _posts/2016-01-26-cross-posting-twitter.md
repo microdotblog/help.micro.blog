@@ -1,6 +1,7 @@
 ---
 title: "Cross-posting to Twitter, Medium, Mastodon, and more"
 date: 2016-01-26
+updated: 2020-09-29
 description: Write on your microblog and copy to other social networks.
 order: 1
 categories: cross-posting
@@ -21,4 +22,4 @@ Once enabled, any new posts (after you enable cross-posting) will be sent to Twi
 
 Similar rules apply for Medium, LinkedIn, and Mastodon, but with different length restrictions since the 280-character limit is specific to Twitter.
 
-You can continue to reply and favorite directly on Twitter, and also on Micro.blog. Replies posted directly on Micro.blog aren't included in your microblog RSS feed, so they won't be sent to Twitter.
+You can continue to reply and bookmark directly on Twitter, and also on Micro.blog. Replies posted directly on Micro.blog aren't included in your microblog RSS feed, so they won't be sent to Twitter.

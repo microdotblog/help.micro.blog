@@ -1,6 +1,7 @@
 ---
 title: "Cross-posting with the IFTTT service"
 date: 2015-08-20
+updated: 2020-09-29
 description: Write on your microblog and send via IFTTT.
 order: 3
 categories: cross-posting
@@ -19,7 +20,7 @@ The second half of the recipe uses the [Twitter channel][4]. Configure the "Post
 
 In the tweet action, you want to replace the text with the special {% raw %}``{{EntryContent}}``{% endraw %} value. This will take the full text from the RSS feed and include it in the tweet.
 
-You can continue to reply and favorite directly on Twitter, and also on Micro.blog. Replies posted directly on Micro.blog aren't included in your microblog RSS feed, so they won't be sent to Twitter.
+You can continue to reply and bookmark directly on Twitter, and also on Micro.blog. Replies posted directly on Micro.blog aren't included in your microblog RSS feed, so they won't be sent to Twitter.
 
 [1]: /2016/cross-posting-twitter/
 [2]: https://ifttt.com/

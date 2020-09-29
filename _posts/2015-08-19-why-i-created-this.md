@@ -1,6 +1,7 @@
 ---
 title: "Why I created Micro.blog"
 date: 2015-08-19
+updated: 2020-09-29
 description: A short story of the history of the web.
 order: 2
 categories: about
@@ -15,6 +16,6 @@ I believe that even these short-form posts, no matter if they seem unimportant a
 
 Instead of yet another social network, Micro.blog is designed to work with the open web. It's built on RSS and independent microblogs. It's about pulling together short posts and making them more useful and easier to interact with. It prioritizes both a safe community of microblogs as well as the freedom to post to your own site.
 
-Micro.blog encourages publishing at your own domain name, where you can control your own content, but it still integrates posts into a familiar timeline user interface, with centralized replies, favorites, and an open API based on JSON Feed and IndieWeb standards.
+Micro.blog encourages publishing at your own domain name, where you can control your own content, but it still integrates posts into a familiar timeline user interface, with centralized replies, bookmarks, and an open API based on JSON Feed and IndieWeb standards.
 
 [You can register for free](https://micro.blog/register), bring your own weblog, or let Micro.blog host a microblog for you with a simple paid subscription. Map a custom domain to your site and get your content out whenever you want. I hope you like it.
