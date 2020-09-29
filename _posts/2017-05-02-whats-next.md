@@ -1,17 +1,13 @@
 ---
 title: "What's next?"
 date: 2017-05-02
-updated: 2020-09-15
+updated: 2020-09-29
 order: 5
 description: Some of the features and bugs we're working on.
 categories: about
 ---
 We're always working on improvements to Micro.blog. Here are some of the features and bugs we're working on:
 
-* Redesigning the web interface and native apps with new navigation and icons.
-* Expanding how Favorites work, including new features.
-* Multiple account support without signing out on iOS.
-* Editing pages and managing uploads on iOS and macOS.
 * More hosted microblog themes.
 * Better accessibility on the web.
 
@@ -19,6 +15,10 @@ We're always working on improvements to Micro.blog. Here are some of the feature
 
 We've recently finished these changes:
 
+* Redesigned the web interface and native apps with new navigation and icons.
+* Renamed favorites to bookmarks, expanding how they work with support for archiving web pages and making highlights.
+* Added multiple account support without signing out on iOS.
+* Added editing pages and managing uploads on iOS and macOS.
 * Launched Sunlit 3.0, an Instagram-like photo sharing app built on Micro.blog. It's open source.
 * Added new books search and book covers interface.
 * Added following Tumblr blogs and IndieWeb sites by domain name. Improved the username search.
