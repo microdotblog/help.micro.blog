@@ -1,6 +1,7 @@
 ---
 title: "Privacy policy"
 date: 2018-04-01
+updated: 2020-10-01
 description: What information we collect.
 order: 3
 categories: policies
@@ -29,23 +30,19 @@ The native apps for Micro.blog store a token for your account in the system keyc
 
 When authenticating with WordPress and compatible blogs, Micro.blog stores your WordPress password in the system keychain. The XML-RPC API sends the password with each request, so we recommend using SSL if you're using an external blog.
 
-Micro.blog for iOS use the Fabric framework to track crashes and usage. This data is sent to Fabric servers run by Google. No Micro.blog account information is sent to Fabric.
-
 ## Credit cards
 
 Micro.blog uses Stripe for credit card processing. Credit card information is sent directly from your web browser to Stripe. Micro.blog does not see or store your credit card number.
 
 Stripe manages your billing information, including name, zip code, credit card number, and expiration date. Your Micro.blog email address and username are stored on Stripe for sending receipt emails, and so that we can look up your account to confirm or update something about your subscription, usually from a support request.
 
-We use Baremetrics to show reports on subscriptions. Baremetrics connects to Stripe and automatically imports subscription information including customer name.
-
 ## Supporting services
 
 Micro.blog relies on a few other services as supporting infrastructure, including:
 
 * Linode: Hosting the app and database servers.
-* LogDNA: Complements our app logging. Logs don't contain your name or email address.
-* Amazon Web Services: Additional backups are stored on S3.
+* Amazon Web Services: Additional backups and bookmark archives are stored on S3.
 * Slack: There is a public Slack that any Micro.blog user can join. You use your name and email address to register, but they do not need to match your Micro.blog account information. We also use Slack for some private notifications about new registrations or cancellations.
 * Zendesk: When you email help@micro.blog, your email goes to Zendesk.
-* Mailchimp: We occasionally send newsletter-style email to all users. There is a link to unsubscribe in those emails. Mailchimp's companion service Mandrill is also used to send automated emails such as sign-up confirmations or blog expiration warnings.
+* SendGrid: We occasionally send newsletter-style email to all users. There is a link to unsubscribe in those emails. We also use SendGrid to send automated emails such as sign-up confirmations or blog expiration warnings.
+* Plausible: Privacy-friendly analytics used only on the Micro.blog home page and registration page to see how many people are visiting Micro.blog. Not used for signed-in users.
