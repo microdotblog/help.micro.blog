@@ -1,14 +1,14 @@
 ---
 title: "Micro.blog for Mac"
 date: 2017-10-15
-updated: 2020-10-05
+updated: 2020-11-21
 description: The official macOS version of Micro.blog.
 order: 2
 categories: apps
 ---
 Mac users can use the native Micro.blog for Mac app. It's a free download and supports most of the same features as the iOS version.
 
-[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_2.0.2.zip). Requires macOS 10.14 Mojave.
+[Download the latest version here](https://s3.amazonaws.com/micro.blog/mac/Micro.blog_2.0.3.zip). Requires macOS 10.14 Mojave.
 
 <img src="/assets/images/mac/screenshot.png" width="600" height="716" alt="Screenshot of Micro.blog for macOS">
 
@@ -17,6 +17,11 @@ When you first launch the app, it will prompt to sign in via your web browser. I
 If you're using a Micro.blog-hosted weblog, you can use File → New Post to start a new blog post. If you're using WordPress or another server, first open the preferences window and enter your web site URL to set it up for posting within the app.
 
 ## Version history
+
+### 2.0.3 --- November 21, 2020
+
+* Updated for new "Apple Silicon" M1-based Macs.
+* Fixed selecting main timeline window when clicking on new post window.
 
 ### 2.0.2 --- October 5, 2020
 
