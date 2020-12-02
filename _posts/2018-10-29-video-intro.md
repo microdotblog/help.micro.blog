@@ -16,3 +16,4 @@ For more details and tips, [check out this page of resources](https://welcome.mi
 - What you can do with your a microblog
 - Customizing default Micro.blog templates
 - Micro.blog pricing tiers and their features
+
