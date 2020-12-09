@@ -30,4 +30,4 @@ In addition, there are other tools that can post to your Micro.blog-hosted accou
 
 [Micro.blog supports the Micropub API](/2017/api-posting/) for hosted blogs. We encourage and support other developers who want to create tools for our platform. 
 
-(If you have any issues connecting from a Micropub client, [see our help page about OwnYourGram](/2017/instagram/) for tips.)
+If you have any issues connecting from a Micropub client, [see our help page about OwnYourGram](/2017/instagram/) for tips.
