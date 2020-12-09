@@ -1,7 +1,7 @@
 ---
 title: "Finding people to follow"
 date: 2019-12-17
-updated: 2020-12-08
+updated: 2020-12-09
 description: Looking in Discover, Micro Monday, and replies.
 order: 3
 categories: community
@@ -13,7 +13,7 @@ It's not possible to search Micro.blog by topic or content. Micro.blog doesn't s
 
 **Check out the Discover timeline.** The [Discover timeline](https://help.micro.blog/2019/discover-timeline/) is curated by the Micro.blog team. We continually add posts that will educate, entertain, and pique the interest of the community at large. In addition, there is a search tool that will help you find people by name. There are also [subcategories in Discover](https://help.micro.blog/2018/tagmoji/) for a range of interests such as books, music, movies, baking, knitting, running and more.
 
-**Follow Micro Monday ([@monday](https://micro.blog/monday)) recommendations.** Each week, folks post recommendations of others to follow. It's our version of Follow Friday. There's also a Micro Monday podcast, which features a short interview with a microblogger by community manager, Jean MacDonald ([@macgenie](https://micro.blog/macgenie)); and a Micro Monday newsletter, where Micro.blog creator Manton Reece ([@manton](https://micro.blog/manton)) surveys news and posts of interest.
+**Follow [Micro Monday recommendations](https://micro.blog/discover/micromonday).** Each week, folks post recommendations of others to follow. It's our version of Twitter's Follow Friday. There's also a [Micro Monday podcast](https://monday.micro.blog/categories/episodes/), which features a short interview with a microblogger by community manager, Jean MacDonald ([@macgenie](https://micro.blog/macgenie)); and a Micro Monday newsletter, where Micro.blog creator Manton Reece ([@manton](https://micro.blog/manton)) surveys news and posts of interest.
 
 **Look at who other people are following.** If you go to a user's profile, you'll see a link that says "Following x number of users you are not following."
 
