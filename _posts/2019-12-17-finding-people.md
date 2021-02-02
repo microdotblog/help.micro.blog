@@ -1,7 +1,7 @@
 ---
 title: "Finding people to follow"
 date: 2019-12-17
-updated: 2020-12-09
+updated: 2021-02-01
 description: Looking in Discover, Micro Monday, and replies.
 order: 3
 categories: community
