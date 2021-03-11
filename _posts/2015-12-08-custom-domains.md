@@ -22,3 +22,12 @@ More details:
 After you've updated your DNS records, click on Posts → Design in Micro.blog on the web, then scroll down to the custom domain name field. Fill in the hostname (e.g. microblog.yourdomain.com) that you'd like to use for your site.
 
 HTTPS can also be enabled for any custom domain. We set this up for you, but it may take up to a day for it to be ready. Please email <help@micro.blog> with your custom domain if HTTPS still hasn't been enabled.
+
+## Changing your Domain
+
+As well as adding a custom domain from `username.micro.blog` to `yourdomain.com`, you can change to `yourotherdomain.com` in the future. When adding a custom domain for the first time, or changing to a new one, various things may appear broken for a while:
+
+- None of your images will load
+- HTTPS won't initially be enabled, so visiting your site may show an "insecure message"
+
+Both of these are normal. Behind the scenes, we're automatically setting everything up. Things should clear up in about 48 hours.
