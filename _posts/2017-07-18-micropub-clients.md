@@ -14,6 +14,8 @@ iOS and Android apps:
 * [Icro](https://itunes.apple.com/us/app/icro/id1375296597?ls=1&mt=8) — iOS app for Micro.blog
 * [Dialog](https://dialog.mikehayn.es/) — Android app for Micro.blog
 * [Mimi Uploader](http://samgrover.studio/apps/mimi) — iOS app for fast uploading of multiple images
+* [Sunlit](https://itunes.apple.com/us/app/sunlit/id1334727769?ls=1&mt=8) — iOS companion app for Micro.blog
+* [WaveLenght](https://itunes.apple.com/us/app/wavelength-for-micro-blog/id1365158696?ls=1&mt=8)  — Record and publish microcasts
 
 MacOS apps:
 * [TodayPoster](https://github.com/bryanluby/TodayPoster) — macOS Today Widget for posting.
